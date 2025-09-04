@@ -3,30 +3,225 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    left: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 5%
+  &-3
+    animation: float1 2.2s ease-in-out infinite alternate
+    position: absolute
+    bottom: 10%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
+.banner-interno__titulo__icono i,
+.banner-interno__titulo h2
+  color: $color-primario
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 400px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: #12263F
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.titulo-sexto
+  border-color: $color-acento-contenido
+
 figcaption
   font-weight: normal
+
+.banner-principal__componente h1,
+.banner-principal__descripcion p
+  color: #12263F
+
+.boton *, .boton span, .boton i, .boton:hover span, .boton:hover i,
+  color: $white!important
+
+.barra-avance__boton--regresar span
+  color: $white!important
+
+.curva-derecha
+  border-top-right-radius: 10rem
+
+.curvas-izq-der
+  border-radius: 10rem 0 10rem 0
+
+// Fondos
+.bg-full-width
+  margin: 0 -3em
+  padding: 0 3rem
+
+.bg01
+  background: url('../assets/curso/fondos/bg01.png') no-repeat
+  background-position: center center
+  background-size: cover
+
+.bg02
+  background: url('../assets/curso/portada/fondo-banner-principal.png') no-repeat
+  background-position: center right
+  background-size: cover
+
+.bg-white
+  background-color: $white
+.bg-color-primario-p5
+  background-color: #FEECE6
+
+.bg-color-secundario
+  background-color: #7BB5F2
+.bg-color-secundario-p10
+  background-color: #E5F0FC
+.bg-color-acento-contenido
+  background-color: #FAF6E0
+
+.bg-gray-gradient
+  background: #FFF
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(224, 224, 224, 1) 100%)
+
+// -------------------- Imagen y tarjeta en la mitad
+.tarjeta-horz
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  .texto-tarjeta
+    width: 80%
+    margin: -2em 0 auto 0
+    padding: 1.5em
+    box-shadow: 0 2px 5px rgba(0,0,0,0.17)
+    border-radius: 0.5em
+    z-index: 10
+    position: relative
+
+.tarjeta-horz.curvas
+  .texto-tarjeta
+    border-radius: 0 5rem 0 5rem
+
+.bloque-texto-b
+  &__texto
+    i
+      color: $color-primario
+
+.titulo-icono
+  h3
+    border-radius: 20px
+    display: inline-block
+    padding: 6px 30px 6px 76px
+    position: relative
+    color: #12263f
+  img
+    position: absolute
+    width: 70px
+    bottom: -8px
+    left: 0px
+
+// -------------------- Tarjetas Hover
+.crd_hover_txt
+  position: relative
+  padding: 0
+  overflow: hidden
+  border-radius: 10px
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .3s ease-in-out
+  transform: translateY(0)
+
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 18px 13px 30px
+  bottom: 0
+  transition: all .3s ease-in-out
+  transform: translateY(calc(100% - 55px))
+  background-color: #FEECE6
+  &:hover
+    background-color: #FEECE6
+
+// -------------------- SlyderA tipo b
+.slyder-a
+  &__tipo-b
+    margin-top: 0 !important
+
+  &__btn--sigt,
+  &__btn--atrs
+    background-color: #283F65
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M0,1.5,1.63,0,8,6,1.63,12,0,10.5,4.8,6Z' transform='translate(12) rotate(90)' fill='%23fff'/></svg>")
+
+  &__bullets__item
+    background-color: #ACB3BC
+    margin: 0 5px
+
+    &--active
+      background-color: #283F65
+
+// -------------------- Acordion
+.acordion__activo
+  background-color: #FEECE6
+
+// -------------------- Table
+table
+  caption
+    font-weight: normal
+table
+  // tr:nth-child(even)
+  //   background-color: #f7f7f7
+
+  th, td
+    text-align: left
+
+.tabla-a
+  thead
+    border-color: $color-secundario
+    th
+      background-color: #CAE1F9
+      font-size: 18px
+
+.color-acento-contenido
+  &.cajon
+    background-color: #FAF6E0
+    &::before
+      background-color: #F6DE44
+.cajon
+  &.color-acento-contenido
+    background-color: #FAF6E0
+
+// -------------------- Tabs
+.tabs-c__header
+  margin-bottom: 0
+
+.tabs-b__tab
+  background-color: #F2F8FE
+.tabs-b__tab:hover
+  background-color: #CAE1F9
+
+.tabs-b__tab--active, .tabs-b__tab--active:hover
+  background-color: $white
+
+.tabs-c__tab--active
+  font-weight: bold
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #283F65
+  color: #fff
+.linea-tiempo-d.color-secundario .tarjeta
+  background-color: #CAE1F9
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #FEECE6!important
+
+.floated-image-right
+  position: absolute
+  right: 0
+  bottom: -3rem
+  height: auto
