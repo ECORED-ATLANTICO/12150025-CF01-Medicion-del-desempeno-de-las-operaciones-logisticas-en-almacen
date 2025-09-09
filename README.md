@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-https://ecored-atlantico.github.io/12150025-Medicion-del-desempeno-de-las-operaciones-logisticas-en-almacen/#/
+https://ecored-atlantico.github.io/12150025-CF01-Medicion-del-desempeno-de-las-operaciones-logisticas-en-almacen/#/
 
 #
 
