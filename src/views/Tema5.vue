@@ -112,7 +112,7 @@
 
     //cajon
     .cajon.color-acento-contenido.p-4
-      p.mb-0 En conjunto, estos registros ofrecen visibilidad en tiempo real y datos confiables que permiten una rápida toma de decisiones, optimización de recursos y mejora continua en la operación del almacén. Además, con la integración de tecnologías como RFID y sistemas automatizados, estos registros se vuelven más precisos y ágiles, lo que reduce costos y mejora la competitividad empresarial. 
+      p.mb-0 En conclusión, la elección del tipo de seguimiento adecuado impacta directamente en la eficiencia, seguridad y competitividad de la gestión de almacenes, siendo recomendable avanzar hacia soluciones tecnológicas que permitan un control integral y ágil de las operaciones.
         
     separador
 
@@ -138,7 +138,7 @@
           table.bg-white
             caption 
               b Fuente: 
-              | Sena (2025)
+              | Sena, (2025)
             thead
               tr
                 th Fase 
@@ -153,7 +153,11 @@
                 td Establecer metas claras (ej.: "Reducir un 20 % los errores de inventario en 3 meses"). 
               tr
                 td Selección de indicadores. 
-                td Métricas como exactitud de inventario, tiempo promedio de picking o niveles de stock crítico
+                td Métricas como exactitud de inventario, tiempo promedio de 
+                  i picking 
+                  | o niveles de 
+                  i stock 
+                  | crítico
               tr.bg-gray
                 td Asignación de recursos. 
                 td Determinar herramientas (sensores, 
@@ -182,13 +186,17 @@
                 td Contrastar datos recolectados con los indicadores definidos (ej.: "¿El tiempo de despacho cumple con el estándar de 30 minutos?"
               tr.bg-gray
                 td Identificación de anomalías. 
-                td Usar herramientas como: alertas automáticas (ej.: stock por debajo del mínimo), gráficos de tendencias (ej.: aumento de mermas en cierta zona). 
+                td Usar herramientas como: alertas automáticas (ej.: 
+                  i stock 
+                  | por debajo del mínimo), gráficos de tendencias (ej.: aumento de mermas en cierta zona). 
               tr.bg-gray
                 td(rowspan="3").text-center
                   b Toma de acciones correctivas  
               tr
                 td Inmediatas 
-                td Resolver problemas detectados (ej.: reabastecer stock urgente, corregir ubicaciones erróneas). 
+                td Resolver problemas detectados (ej.: reabastecer 
+                   i stock 
+                   | urgente, corregir ubicaciones erróneas). 
               tr.bg-gray
                 td Preventivas 
                 td Implementar mejoras para evitar recurrencia (ej.: capacitación en manejo de productos perecederos, redistribución de espacios). 

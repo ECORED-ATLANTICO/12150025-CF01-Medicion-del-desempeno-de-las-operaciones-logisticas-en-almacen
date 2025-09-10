@@ -78,7 +78,7 @@
 
           figcaption 
             b Fuente: 
-            | Sena (2025)
+            | Sena, (2025)
 
         //cajon
         .cajon.color-acento-contenido.p-4.mb-3
@@ -119,7 +119,7 @@
             .row(numero="2" titulo="Selección y filtrado ")
                 p.text-small No toda la información es útil, por lo que se elige la más relevante según los objetivos 
             .row(numero="3" titulo="Organización ")
-                p.text-small los datos se estructuran para facilitar su análisis (por ejemplo, en tablas, informes o sistemas digitales). 
+                p.text-small Los datos se estructuran para facilitar su análisis (por ejemplo, en tablas, informes o sistemas digitales). 
             .row(numero="3" titulo="Verificación  ")
                 p.text-small Se valida la calidad y precisión de la información recopilada. 
 
@@ -134,7 +134,7 @@
             table.bg-white
               caption 
                 b Fuente: 
-                | Sena (2025)
+                | Sena, (2025)
               thead
                 tr
                   th Metodología 
@@ -165,8 +165,11 @@
                 tr
                   td 
                     i Web scraping  
-                  td Técnica para extraer información automatizada de sitios web mediante bots o scripts, convirtiendo datos no estructurados en estructurados. 
-                  td Automatización de recolección de datos desde páginas web. 
+                  td Técnica para extraer información automatizada de sitios 
+                    i web 
+                    | mediante bots o scripts, convirtiendo datos no estructurados en estructurados. 
+                  td Automatización de recolección de datos desde páginas 
+                    i web. 
                 tr
                   td Sensores y IOT  
                   td Es la captura automática de datos mediante dispositivos físicos conectados a internet (sensores, 

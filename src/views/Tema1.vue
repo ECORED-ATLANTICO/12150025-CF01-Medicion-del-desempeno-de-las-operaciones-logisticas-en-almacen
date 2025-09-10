@@ -52,7 +52,7 @@
 
       figcaption 
         b Fuente: 
-        | Sena (2025)
+        | Sena, (2025)
 
 
     separador
@@ -215,7 +215,8 @@
         .row.px-4.align-items-center
           .col-md-6.mb-4.mb-md-0.mx-auto
             h4 Almacén de comercio electrónico.
-            p Centros de cumplimiento de Amazon, Temu, etc. Almacenes dark store para entregas ultra rápidas (15-30 minutos). 
+            p Centros de cumplimiento de Amazon, Temu, etc. Almacenes 
+              i dark store para entregas ultra rápidas (15-30 minutos). 
           .col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
@@ -260,7 +261,7 @@
           table
             caption 
               b Fuente: 
-              | Sena (2025)
+              | Sena, (2025)
             thead
               tr
                 th Tipo de función 

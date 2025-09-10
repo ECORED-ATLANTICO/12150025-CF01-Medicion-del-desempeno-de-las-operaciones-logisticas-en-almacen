@@ -41,7 +41,7 @@
           table.bg-white
             caption 
               b Fuente: 
-              | Sena (2025)
+              | Sena, (2025)
             thead
               tr
                 th Clasificación 
@@ -69,8 +69,13 @@
                 td 
                   ul.mb-0
                     li.d-flex.align-items-start.mb-1 
-                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Se completan en dispositivos electrónicos (computadoras, tablets, smartphones).
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                        style="color: #FE8849; font-size: 15px; line-height: 1.5;"
+                      )
+                      span
+                        | Se completan en dispositivos electrónicos (computadoras, 
+                        em tablets y smartphones
+                        | ).
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                       | Pueden incluir validaciones automáticas (ej.: formato de correo, campos obligatorios).
@@ -209,7 +214,7 @@
         table.bg-white
           caption 
             b Fuente: 
-            | Sena (2025)
+            | Sena, (2025)
           thead
             tr
               th Técnicas  
@@ -243,7 +248,9 @@
                   b Validación de datos. 
                 td Minimizar errores mediante restricciones inteligentes. 
                 td 
-                  p.mb-0 Validación en tiempo real (ej. alerta si la cantidad supera el stock máximo). <br>Consulta a bases de datos (ej.: autocompletar nombres de productos). <br>Ejemplos críticos: campo "fecha", bloquear fechas futuras en registros de entrada. Campo "cantidad", Solo permitir números enteros positivos. 
+                  p.mb-0 Validación en tiempo real (ej. alerta si la cantidad supera el 
+                    i stock 
+                    | máximo). <br>Consulta a bases de datos (ej.: autocompletar nombres de productos). <br>Ejemplos críticos: campo "fecha", bloquear fechas futuras en registros de entrada. Campo "cantidad", Solo permitir números enteros positivos. 
               tr
                 td.text-center
                   b Diseño adaptable. 

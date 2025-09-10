@@ -175,7 +175,7 @@ export default {
         {
           id: 8,
           texto:
-            'Los sistemas WMS reducen los tiempos de preparación de pedidos en un 30%.',
+            'Los sistemas WMS reducen los tiempos de preparación de pedidos en un 30 %.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -259,7 +259,7 @@ export default {
         {
           id: 12,
           texto:
-            'Blockchain se utiliza en almacenes para la trazabilidad de productos.',
+            '<em>Blockchain</em> se utiliza en almacenes para la trazabilidad de productos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

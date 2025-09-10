@@ -46,7 +46,7 @@
                 img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='imagen decorativa')
           figcaption 
             b Fuente: 
-            | Sena (2025)
+            | Sena, (2025)
 
 
     separador
@@ -67,7 +67,7 @@
           .tarjeta.fondo_1_2.p-3.p-md-4.p-lg-5.bg05
             SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
               .tarjeta.p-4
-                    h3.mb-2 1.Recepción de bienes 
+                    h3.mb-2 1. Recepción de bienes 
                     p En la fase inicial se reciben bienes de proveedores o producción, se inspeccionan visualmente, se verifica correspondencia con lo solicitado y se realiza un chequeo interno para identificar, clasificar y ubicar los productos adecuadamente. 
               .tarjeta.p-4
                     h3.mb-2 2. Almacenamiento 
@@ -114,7 +114,7 @@
           table
             caption 
               b Fuente: 
-              | Sena (2025)
+              | Sena, (2025)
             thead
               tr
                 th Tipo de función 
@@ -400,7 +400,7 @@
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13m.svg', alt='imagen decorativa').mx-auto.d-block.d-sm-none
         figcaption 
           b Fuente: 
-          | Sena (2025)
+          | Sena, (2025)
 
     //cajon
     .cajon.color-acento-contenido.p-4.mb-3
@@ -464,11 +464,20 @@
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Código y descripción del producto.
                   li.d-flex.align-items-start.mb-1
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Stock actual disponible. 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                      style="color: #FE8849; font-size: 15px; line-height: 1.5;"
+                    )
+                    span
+                      em Stock 
+                      | actual disponible. 
+
                   li.d-flex.align-items-start.mb-1
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Stock mínimo y máximo establecido. 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                      style="color: #FE8849; font-size: 15px; line-height: 1.5;"
+                    )
+                    span
+                      em Stock 
+                      | mínimo y máximo establecido.
               .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0
                   ul.mb-0
                   li.d-flex.align-items-start.mb-1
@@ -586,7 +595,7 @@
             .row
               .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0
                 p.mb-0 Verificar el cumplimiento de normas y procedimientos. 
-                p.mb-0 Exactitud de registros físicos vs sistema. 
+                p.mb-0 Exactitud de registros físicos vs. sistema. 
                 p.mb-0 Cumplimiento de procedimientos operativos. 
                 p.mb-0 Condiciones de almacenamiento. 
                 p.mb-0 Seguridad e higiene. 
@@ -667,7 +676,7 @@
 
           figcaption 
             b Fuente: 
-            | Sena (2025)
+            | Sena, (2025)
 
     //cajon
     .cajon.color-secundario.p-4.mb-3
