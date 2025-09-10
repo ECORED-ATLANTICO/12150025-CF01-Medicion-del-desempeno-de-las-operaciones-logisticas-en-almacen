@@ -10,44 +10,46 @@
     // banner con tarjeta
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-12.mb-4
-        div.tarjeta-horz.mb-3.curvas
+        div.tarjeta-horz.mb-3
           img(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen decorativa')
-          div.texto-tarjeta.bg-color-secundario-p10
+          div.texto-tarjeta.bg-gray-gradient
             .px-4
               p.mb-0 El proceso operativo de un almacén es fundamental para asegurar que los productos estén disponibles en el lugar y momento precisos, lo cual tiene un impacto directo en la eficiencia de la cadena de suministro y en la satisfacción del cliente final. Este proceso garantiza la correcta recepción, almacenamiento, manejo y despacho de mercancías, optimizando recursos y minimizando errores para cumplir con las demandas del mercado de manera ágil y efectiva.  
           
     separador
 
-    // titulo
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_1 2.1 Concepto
+    .bg-full-width.bg03
+      // titulo
+      .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2#t_2_1 2.1 Concepto
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-2
-        figure
-          img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img02.png', alt='imagen decorativa')
-      .col-lg-10
-        p El proceso operativo de un almacén es el conjunto de actividades planificadas y sistematizadas que permiten la recepción, almacenamiento, gestión y despacho de mercancías de manera eficiente. 
-        p.mb-0 Este proceso es fundamental dentro de la cadena de suministro, ya que actúa como enlace entre la producción y la distribución, impactando directamente en la satisfacción del cliente final.
-      
-    // Figura
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.mx-auto
-        .titulo-sexto.mb-4
-          h5 Figura 2. 
-          span Objetivos del proceso operativo de almacén 
-        .row.mx-auto
-          .col-12.col-md-8.order-2.order-md-1
-            figure
-             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='imagen decorativa')
-          .col-5.col-md-4.mx-auto.order-1.order-md-2
-            figure
-              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='imagen decorativa')
-        figcaption 
-          b Fuente: 
-          | Sena (2025)
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-2
+          figure
+            img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img02.png', alt='imagen decorativa')
+        .col-lg-10
+          p.mb-0 El proceso operativo de un almacén es el conjunto de actividades planificadas y sistematizadas que permiten la recepción, almacenamiento, gestión y despacho de mercancías de manera eficiente. 
+          p.mb-0 Este proceso es fundamental dentro de la cadena de suministro, ya que actúa como enlace entre la producción y la distribución, impactando directamente en la satisfacción del cliente final.
+        
+      // Figura
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8.mx-auto
+          .titulo-sexto.mb-4
+            h5 Figura 2. 
+            span Objetivos del proceso operativo de almacén 
+          .row.mx-auto
+            .col-12.col-md-8.order-2.order-md-1
+              figure
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='imagen decorativa')
+            .col-5.col-md-4.mx-auto.order-1.order-md-2
+              figure
+                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='imagen decorativa')
+          figcaption 
+            b Fuente: 
+            | Sena (2025)
 
 
+    separador
 
       // titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -55,113 +57,124 @@
 
     p.mb-5 El proceso operativo de un almacén es un sistema integrado donde cada etapa cumple una función crítica en la cadena de suministro. Su correcta ejecución garantiza eficiencia, reducción de costos y satisfacción del cliente. A continuación, se detallan cada una de las etapas: 
 
+    .bg-full-width.bg03
+      // Slider
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10.col-lg-4
+          figure
+            img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img04.png', alt='imagen decorativa')
+        .col-lg-8
+          .tarjeta.fondo_1_2.p-3.p-md-4.p-lg-5.bg05
+            SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
+              .tarjeta.p-4
+                    h3.mb-2 1.Recepción de bienes 
+                    p En la fase inicial se reciben bienes de proveedores o producción, se inspeccionan visualmente, se verifica correspondencia con lo solicitado y se realiza un chequeo interno para identificar, clasificar y ubicar los productos adecuadamente. 
+              .tarjeta.p-4
+                    h3.mb-2 2. Almacenamiento 
+                    p Una vez recibidos y clasificados los bienes, se procede a su colocación en el almacén. Esta etapa es fundamental para optimizar el espacio disponible y facilitar la rápida localización de los bienes cuando se necesiten. 
+              .tarjeta.p-4
+                    h3.mb-2 3. 
+                      i Picking 
+                      | (Selección de pedidos) 
+                    p En este punto se seleccionan bienes para pedidos o la siguiente etapa logística. El 
+                      i picking 
+                      | se realiza por piezas, lotes o zonas, según el tipo de producto y el volumen de pedidos requeridos. 
+              .tarjeta.p-4
+                    h3.mb-2 4. 
+                      i Packing 
+                      | (Embalaje y etiquetado) 
+                    p Es una etapa clave en el almacén, donde se preparan física y documentalmente los productos para despacho, asegurando que estén en perfecto estado, identificados correctamente y listos para su distribución eficiente. 
+              .tarjeta.p-4
+                    h3.mb-2 5. Despacho y expedición 
+                    p Se organizan pedidos para transporte, garantizando embalaje según requisitos del cliente, distribución óptima de la carga y emisión de la documentación necesaria que acompañará la mercancía durante todo su traslado. 
+              .tarjeta.p-4
+                    h3.mb-2 6. Gestión de devoluciones 
+                    p La logística inversa consiste en recibir, inspeccionar, clasificar y reincorporar o descartar productos devueltos por clientes o socios, siendo esencial en la cadena de suministro, especialmente en 
+                      i e-commerce, retail 
+                      | y sectores de fabricación. 
+              .tarjeta.p-4
+                    h3.mb-2 7. Control y gestión de inventarios. 
+                    p Proceso continuo de auditorías y recuentos para garantizar que existencias físicas coincidan con registros. El control de inventarios detecta desviaciones, previene faltantes o excesos y asegura precisión en la gestión eficiente del almacén. 
 
-    // Slider
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-4
-        figure
-          img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img04.png', alt='imagen decorativa')
-      .col-lg-8
-        .tarjeta.fondo_1_2.p-5.bg02
-          SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
-            .tarjeta.p-4
-                  h3.mb-2 1.Recepción de bienes 
-                  p En la fase inicial se reciben bienes de proveedores o producción, se inspeccionan visualmente, se verifica correspondencia con lo solicitado y se realiza un chequeo interno para identificar, clasificar y ubicar los productos adecuadamente. 
-            .tarjeta.p-4
-                  h3.mb-2 2. Almacenamiento 
-                  p Una vez recibidos y clasificados los bienes, se procede a su colocación en el almacén. Esta etapa es fundamental para optimizar el espacio disponible y facilitar la rápida localización de los bienes cuando se necesiten. 
-            .tarjeta.p-4
-                  h3.mb-2 3. Picking (Selección de pedidos) 
-                  p En este punto se seleccionan bienes para pedidos o la siguiente etapa logística. El picking se realiza por piezas, lotes o zonas, según el tipo de producto y el volumen de pedidos requeridos. 
-            .tarjeta.p-4
-                  h3.mb-2 4. Packing (Embalaje y etiquetado) 
-                  p Es una etapa clave en el almacén, donde se preparan física y documentalmente los productos para despacho, asegurando que estén en perfecto estado, identificados correctamente y listos para su distribución eficiente. 
-            .tarjeta.p-4
-                  h3.mb-2 5. Despacho y expedición 
-                  p Se organizan pedidos para transporte, garantizando embalaje según requisitos del cliente, distribución óptima de la carga y emisión de la documentación necesaria que acompañará la mercancía durante todo su traslado. 
-            .tarjeta.p-4
-                  h3.mb-2 6. Gestión de devoluciones 
-                  p La logística inversa consiste en recibir, inspeccionar, clasificar y reincorporar o descartar productos devueltos por clientes o socios, siendo esencial en la cadena de suministro, especialmente en e-commerce, retail y sectores de fabricación. 
-            .tarjeta.p-4
-                  h3.mb-2 7. Control y gestión de inventarios. 
-                  p Proceso continuo de auditorías y recuentos para garantizar que existencias físicas coincidan con registros. El control de inventarios detecta desviaciones, previene faltantes o excesos y asegura precisión en la gestión eficiente del almacén. 
 
+    separador 
 
     // titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_3 2.3 Herramientas tecnológicas 
+      h2#t_2_3 2.3 Herramientas tecnológicas 
 
     p.mb-5 Las tecnologías están transformando radicalmente la gestión de almacenes, sustituyendo métodos manuales por procesos mucho más ágiles, precisos y eficientes. A continuación, se presenta un análisis exhaustivo de las innovaciones tecnológicas que están remodelando la logística en este ámbito:  
+    
+    .bg-full-width.bg04
+      .row.mb-3
+        .titulo-sexto.mb-4
+          h5 Tabla 2. 
+          span herramientas tecnológicas
+        .tabla-a.color-acento-botones 
+          table
+            caption 
+              b Fuente: 
+              | Sena (2025)
+            thead
+              tr
+                th Tipo de función 
+                th Actividad 
+                th Descripción
+            tbody.bg-white
+              tr
+                td.text-center 
+                  b Sistemas de gestión de almacenes (WMS). 
+                td.bg-gray Gestión de inventario en tiempo real con actualización automática de 
+                  i stock.<br> 
+                  | Optimización de rutas de 
+                  i picking 
+                  | mediante algoritmos inteligentes. <br>Gestión de ubicaciones dinámica basada en rotación de productos. 
+                td.bg-gray Reducción de hasta 30 % en tiempos de preparación de pedidos. <br>Precisión de inventario superior al 99.5 %. <br>Disminución de 25-40 % en costos operativos. 
+              tr
+                td(rowspan="3").text-center.bg-gray
+                  b Automatización y robótica. 
+              tr
+                td 
+                  p 
+                    b Sistemas AS/RS 
+                    i (Automated Storage and Retrieval Systems): 
+                  p Almacenamiento vertical automatizado. <br>Recuperación guiada por 
+                    i software. <br>
+                    | Transporte autónomo de carga.   
+                td Ahorro de espacio.  <br>Reducción de errores. <br>Productividad continua. <br>Elimina accidentes por manipulación. <br>Eficiencia energética.  
 
-    .row.mb-3
-      .titulo-sexto.mb-4
-        h5 Tabla 2. 
-        span herramientas tecnológicas
-      .tabla-a.color-acento-botones 
-        table
-          caption 
-            b Fuente: 
-            | Sena (2025)
-          thead
-            tr
-              th Tipo de función 
-              th Actividad 
-              th Descripción
-          tbody
-            tr
-              td.text-center 
-                b Sistemas de gestión de almacenes (WMS). 
-              td Gestión de inventario en tiempo real con actualización automática de 
-                i stock.<br> 
-                | Optimización de rutas de 
-                i picking 
-                | mediante algoritmos inteligentes. <br>Gestión de ubicaciones dinámica basada en rotación de productos. 
-              td Reducción de hasta 30 % en tiempos de preparación de pedidos. <br>Precisión de inventario superior al 99.5 %. <br>Disminución de 25-40 % en costos operativos. 
-            tr
-              td(rowspan="3").text-center
-                b Automatización y robótica. 
-            tr
-              td 
-                p 
-                  b Sistemas AS/RS 
-                  i (Automated Storage and Retrieval Systems): 
-                p Almacenamiento vertical automatizado. <br>Recuperación guiada por 
-                  i software. <br>
-                  | Transporte autónomo de carga.   
-              td Ahorro de espacio.  <br>Reducción de errores. <br>Productividad continua. <br>Elimina accidentes por manipulación. <br>Eficiencia energética.  
-
-            tr
-              td 
-                p 
-                  b Robots móviles Autónomos: 
-                p Navegación inteligente. <br>
-                  i Picking 
-                  | autónomo. <br>Optimización de rutas en tiempo real. 
-              td Flexibilidad operativa. <br>Rentabilidad comprobada. <br>Adaptabilidad <br>Métricas de desempeño.   
-            tr
-              td(rowspan="4").text-center
-                b Tecnologías 4.0 
-            tr
-              td Internet de las cosas   
-              td Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos. <br>Dispositivos de realidad aumentada para 
-                i picking.   
-            tr
-              td 
-                i Blockchain 
-                | para trazabilidad.  
-              td Registro inmutable de movimientos de bienes. <br>Certificación de origen y autenticidad de productos. <br>
-                i Smart 
-                | contracts para automatizar procesos logísticos.  
-            tr
-              td Inteligencia artificial y 
-                i Machine Learning. 
-              td Optimización dinámica de layouts de almacén. <br>Detección de anomalías: Identificación de patrones de error. <br>Sistemas autónomos de toma de decisiones. 
+              tr
+                td.bg-gray
+                  p 
+                    b Robots móviles Autónomos: 
+                  p Navegación inteligente. <br>
+                    i Picking 
+                    | autónomo. <br>Optimización de rutas en tiempo real. 
+                td.bg-gray Flexibilidad operativa. <br>Rentabilidad comprobada. <br>Adaptabilidad <br>Métricas de desempeño.   
+              tr
+                td(rowspan="4").text-center
+                  b Tecnologías 4.0 
+              tr
+                td Internet de las cosas   
+                td Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos. <br>Dispositivos de realidad aumentada para 
+                  i picking.   
+              tr.bg-gray
+                td 
+                  i Blockchain 
+                  | para trazabilidad.  
+                td Registro inmutable de movimientos de bienes. <br>Certificación de origen y autenticidad de productos. <br>
+                  i Smart 
+                  | contracts para automatizar procesos logísticos.  
+              tr
+                td Inteligencia artificial y 
+                  i Machine Learning. 
+                td Optimización dinámica de layouts de almacén. <br>Detección de anomalías: Identificación de patrones de error. <br>Sistemas autónomos de toma de decisiones. 
 
     separador
 
     //titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_4 2.4 Registros
+      h2#t_2_4 2.4 Registros
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -181,7 +194,7 @@
       .py-3.py-md-4(titulo="Entradas").bg-color-secundario-p10
         .row.py-4
           .col-1
-          .col-md-6.mb-4.mb-md-0.px-5
+          .col-12.col-lg-6.mb-4.mb-md-0.px-5
             p 
               b Entradas 
             p.mb-0 
@@ -212,93 +225,117 @@
                   li.d-flex.align-items-start.mb-1 
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Responsable de recepción. 
-          .col-md-4.col-8.mx-auto
+          .col-lg-4.col-8.mx-auto
             figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
           .col-1
+      
       .py-3.py-md-4(titulo="Salidas").bg-color-secundario-p10
         .row.py-4
           .col-1
-          .col-md-6.mb-4.mb-md-0.px-5
+          .col-lg-4.col-8.mx-auto.order-2.order-lg-1
+            figure
+              img(src='@/assets/curso/temas/tema2/img08.png', alt='Imagen Decorativa')
+          .col-12.col-lg-6.mb-4.mb-md-0.px-5.order-1.order-lg-2
             p 
               b Salidas 
             p.mb-0 
               b Descripción 
-            p Llevar control de los productos que salen del almacén, ya sea por ventas, traslados o devoluciones. 
+            p Llevar control de los productos que salen del almacén, ya sea por ventas, traslados o devoluciones.
             p
               b Datos clave
             .row
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Número de factura o remisión (del proveedor). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fecha y hora de recepción. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Proveedor (nombre, contacto). 
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Descripción de los productos (código, SKU, cantidad)
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Condición de los productos (inspección visual, daños, caducidad). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Responsable de recepción. 
-          .col-md-4.col-8.mx-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Texto que describa la imagen')
-          .col-1
-      .py-3.py-md-4(titulo="Inventario").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-md-6.mb-4.mb-md-0.px-5
-            p 
-              b Inventario 
-            p.mb-0 
-              b Descripción 
-            p Mantener un control actualizado de las cantidades disponibles en el almacén. <br>Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). <br>Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual). 
-            p
-              b Datos clave
-            .row
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Código del producto y ubicación en el almacén.
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Stock actual (cantidad disponible).
               .col-6
                 ul
                   li.d-flex.align-items-start.mb-1 
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                      style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Stock mínimo y máximo (para alertas de reposición).
-
+                      style="color:#FE8849; font-size:15px; line-height:1.5;"
+                    )
+                    span Número de orden de salida o 
+                      em picking
                   li.d-flex.align-items-start.mb-1 
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fecha del último movimiento. 
-          .col-md-4.col-8.mx-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Texto que describa la imagen')
+                    | Cliente o destino (si es una venta o traslado interno).
+                  li.d-flex.align-items-start.mb-1 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Fecha y hora de salida.
+              .col-6
+                ul
+                  li.d-flex.align-items-start.mb-1 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Lista de productos despachados (cantidad, lote, seriales).
+                  li.d-flex.align-items-start.mb-1 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Transportista o método de envío.
+                  li.d-flex.align-items-start.mb-1 
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Firma de conformidad del receptor.
+          
+          .col-1
+      .py-3.py-md-4(titulo="Inventario").bg-color-secundario-p10
+        .row.py-4
+          .col-1
+          .col-12.col-lg-10
+            .row
+              .col-12.col-lg-6.mb-4.mb-md-0.px-5
+                p 
+                  b Inventario 
+                p.mb-0 
+                  b Descripción 
+                p Mantener un control actualizado de las cantidades disponibles en el almacén. Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual).
+
+              .col-lg-4.col-8.mx-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen Decorativa')
+            .row
+              .col-0
+              .col-10.mx-auto
+                p
+                  b Datos clave
+                .row
+                  .col-12.col-md-6
+                    ul
+                      li.d-flex.align-items-start.mb-1 
+                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                        span Código del producto y ubicación en el almacén.
+
+                      li.d-flex.align-items-start.mb-1 
+                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                        span 
+                          em Stock 
+                          |  actual (cantidad disponible).
+
+                  .col-12.col-md-6
+                    ul
+                      li.d-flex.align-items-start.mb-1 
+                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                        span 
+                          em Stock 
+                          |  mínimo y máximo (para alertas de reposición).
+
+                      li.d-flex.align-items-start.mb-1 
+                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
+                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                        span Fecha del último movimiento.
+              .col-1
           .col-1
       
       .py-3.py-md-4(titulo="Movimientos internos ").bg-color-secundario-p10
         .row.py-4
           .col-1
-          .col-md-6.mb-4.mb-md-0.px-5
+          .col-lg-4.col-8.mx-auto.order-2.order-lg-1
+            figure
+              img(src='@/assets/curso/temas/tema2/img10.png', alt='Imagen Decorativa')
+          .col-12.col-lg-6.mb-4.mb-md-0.px-5.order-1.order-lg-2
             p 
               b Entradas 
             p.mb-0 
               b Descripción 
             p Rastrear cambios de ubicación dentro del almacén (ej: de zona de recepción a 
-              i picking). 
+              i picking).
             p
               b Datos clave
             .row
@@ -318,15 +355,12 @@
                   li.d-flex.align-items-start.mb-1 
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Responsable del movimiento.
-          .col-md-4.col-8.mx-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Texto que describa la imagen')
           .col-1
 
       .py-3.py-md-4(titulo="No conformidad (devoluciones, daños, pérdidas) ").bg-color-secundario-p10
         .row.py-4
           .col-1
-          .col-md-6.mb-4.mb-md-0.px-5
+          .col-12.col-lg-6.mb-4.mb-md-0.px-5
             p.mb-0 
               b Descripción 
             p Documentar productos que no cumplen con los estándares de calidad o se pierden. <br>Productos dañados (roturas, humedad). <br>Productos vencidos o próximos a vencer. <br>Diferencias en inventario (faltantes inexplicables). <br>Reclamos de clientes por errores en despachos. 
@@ -346,9 +380,9 @@
                  li.d-flex.align-items-start.mb-1 
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Acciones tomadas (reemplazo, descarte, ajuste contable).
-          .col-md-4.col-8.mx-auto
+          .col-lg-4.col-8.mx-auto
             figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img11.png', alt='Imagen Decorativa')
           .col-1
 
     // Figura
@@ -376,7 +410,7 @@
 
     //subt
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_5 2.5 Reportes
+      h2#t_2_5 2.5 Reportes
 
     p.mb-5 Conocer los tipos de reportes es fundamental para una gestión eficiente del almacén, ya que cada uno aporta información clave que facilita la toma de decisiones estratégicas y operativas. 
 
@@ -460,7 +494,7 @@
               .row
                 .col-12.col-md-8.col-lg-4.mx-auto
                   figure
-                    img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa')
+                    img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa').mb-4.mb-lg-0
                 .col-12.col-md-6.col-lg-4
                     ul.mb-0
                       li.d-flex.align-items-start.mb-1
@@ -526,7 +560,7 @@
             .row
               .col-12.col-md-8.col-lg-4.mx-auto
                 figure
-                  img(src='@/assets/curso/temas/tema2/img24.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema2/img24.png', alt='Imagen decorativa').mb-4.mb-lg-0
               .col-12.col-md-6.col-lg-4
                   ul.mb-0
                     li.d-flex.align-items-start.mb-1
@@ -628,8 +662,8 @@
           span Tendencias actuales en reportes de almacén  
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema2/img26.svg', alt='').mx-auto.d-none.d-sm-block
-            img(src='@/assets/curso/temas/tema2/img26m.svg', alt='').mx-auto.d-block.d-sm-none
+            img(src='@/assets/curso/temas/tema2/img26.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
+            img(src='@/assets/curso/temas/tema2/img26m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
 
           figcaption 
             b Fuente: 

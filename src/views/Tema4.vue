@@ -20,7 +20,7 @@
 
      //titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_3_1 4.1 Tipos
+      h2#t_4_1 4.1 Tipos
 
 
     .bloque-texto-g.bg-color-primario-p5.p-3.p-sm-4.p-md-5.mb-5
@@ -32,167 +32,168 @@
     
     p.mb-5 A continuación, se amplía la clasificación de los formularios con ejemplos y características relevantes. 
 
-    .row.mb-5
-      .titulo-sexto.mb-4
-          h5 Tabla  4. 
-          span Tipos de formularios
-      .tabla-a.color-acento-botones 
-        table
-          caption 
-            b Fuente: 
-            | Sena (2025)
-          thead
-            tr
-              th Clasificación 
-              th Tipos de formularios  
-              th Características 
-          tbody
-            tr
-              td(rowspan="5").text-center
-                b Por medio de implementación  
-            tr
-              td Físicos 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Requieren llenado manual (escrito a mano o a máquina). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Pueden incluir campos para firma autógrafa o sellos institucionales. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Necesitan digitalización posterior (escaneo o transcripción).
-            tr
-              td Digitales 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Se completan en dispositivos electrónicos (computadoras, tablets, smartphones).
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Pueden incluir validaciones automáticas (ej.: formato de correo, campos obligatorios).
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Permiten integración con bases de datos y sistemas de gestión.
-            tr
-              td Digitales 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Capturar datos básicos de usuarios, clientes o empleados. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplos: registro de nuevos usuarios en una plataforma, alta de empleados en sistemas de RR.HH.s
-            tr
-              td De encuesta o evaluación. 
-              td                 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Recolectar opiniones, percepciones o datos estadísticos. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplos: encuestas de satisfacción al cliente, evaluaciones de desempeño laboral.
-            tr
-              td(rowspan="5").text-center
-                b Por propósito o función.  
-            tr
-              td De solicitud 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Gestionar peticiones o trámites formales. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplos: solicitud de vacaciones en una empresa, petición de soporte técnico (tickets).
-            tr
-              td De control o auditoría. 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Documentar procesos, inspecciones o verificaciones. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplos: informes de auditoría financiera, registros de calidad en producción.
-            tr
-              td Transaccionales 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Facilitar transacciones comerciales o financieras. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplos: formularios de checkout en e-commerce, solicitudes de crédito o facturación.
-            tr
-              td Estructurados (cerrados) 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Campos predefinidos (opciones fijas: selección múltiple, casillas de verificación). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fáciles de procesar automáticamente (bases de datos, hojas de cálculo).
-            tr
-              td(rowspan="4").text-center
-                b Por estructura y flexibilidad.  
-            tr
-              td Semi-Estructurados 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Combinan campos cerrados con secciones de texto abierto. Ej. encuestas con preguntas mixtas (selección + comentarios). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Permiten mayor detalle sin perder estructura. Ej. reportes de incidencias (datos fijos + descripción del problema).
-            tr
-              td No estructurados (abiertos) 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Dominados por campos de texto libre (ej. ensayos, descripciones extensas). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Requieren análisis cualitativo (ej.entrevistas cualitativas). 
-            tr
-              td Estáticos 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Solo permiten llenado secuencial sin cambios dinámicos. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplo: formularios PDF sin lógica condicional.
-            tr
-              td.text-center
-                b Por nivel de interactividad.  
-              td Dinámicos 
-              td 
-                ul.mb-0
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    |  Adaptan campos según respuestas previas (lógica condicional). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Ejemplo: si el usuario selecciona "Soy extranjero", aparece un campo adicional para documento migratorio.
+    .bg-full-width.bg04.bg-bottom
+      .row.mb-5
+        .titulo-sexto.mb-4
+            h5 Tabla  4. 
+            span Tipos de formularios
+        .tabla-a.color-acento-botones 
+          table.bg-white
+            caption 
+              b Fuente: 
+              | Sena (2025)
+            thead
+              tr
+                th Clasificación 
+                th Tipos de formularios  
+                th Características 
+            tbody
+              tr
+                td(rowspan="5").text-center
+                  b Por medio de implementación  
+              tr.bg-gray
+                td Físicos 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Requieren llenado manual (escrito a mano o a máquina). 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Pueden incluir campos para firma autógrafa o sellos institucionales. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Necesitan digitalización posterior (escaneo o transcripción).
+              tr
+                td Digitales 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Se completan en dispositivos electrónicos (computadoras, tablets, smartphones).
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Pueden incluir validaciones automáticas (ej.: formato de correo, campos obligatorios).
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Permiten integración con bases de datos y sistemas de gestión.
+              tr.bg-gray
+                td Digitales 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Capturar datos básicos de usuarios, clientes o empleados. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplos: registro de nuevos usuarios en una plataforma, alta de empleados en sistemas de RR.HH.s
+              tr
+                td De encuesta o evaluación. 
+                td                 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Recolectar opiniones, percepciones o datos estadísticos. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplos: encuestas de satisfacción al cliente, evaluaciones de desempeño laboral.
+              tr
+                td(rowspan="5").text-center
+                  b Por propósito o función.  
+              tr.bg-gray
+                td De solicitud 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Gestionar peticiones o trámites formales. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplos: solicitud de vacaciones en una empresa, petición de soporte técnico (tickets).
+              tr
+                td De control o auditoría. 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Documentar procesos, inspecciones o verificaciones. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplos: informes de auditoría financiera, registros de calidad en producción.
+              tr.bg-gray
+                td Transaccionales 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Facilitar transacciones comerciales o financieras. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplos: formularios de checkout en e-commerce, solicitudes de crédito o facturación.
+              tr
+                td Estructurados (cerrados) 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Campos predefinidos (opciones fijas: selección múltiple, casillas de verificación). 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Fáciles de procesar automáticamente (bases de datos, hojas de cálculo).
+              tr
+                td(rowspan="4").text-center
+                  b Por estructura y flexibilidad.  
+              tr.bg-gray
+                td Semi-Estructurados 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Combinan campos cerrados con secciones de texto abierto. Ej. encuestas con preguntas mixtas (selección + comentarios). 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Permiten mayor detalle sin perder estructura. Ej. reportes de incidencias (datos fijos + descripción del problema).
+              tr
+                td No estructurados (abiertos) 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Dominados por campos de texto libre (ej. ensayos, descripciones extensas). 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Requieren análisis cualitativo (ej.entrevistas cualitativas). 
+              tr.bg-gray
+                td Estáticos 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Solo permiten llenado secuencial sin cambios dinámicos. 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplo: formularios PDF sin lógica condicional.
+              tr
+                td.text-center
+                  b Por nivel de interactividad.  
+                td Dinámicos 
+                td 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      |  Adaptan campos según respuestas previas (lógica condicional). 
+                    li.d-flex.align-items-start.mb-1 
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Ejemplo: si el usuario selecciona "Soy extranjero", aparece un campo adicional para documento migratorio.
 
-    separador
+      separador
 
     //titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_3_1 4.2. Técnicas de elaboración  
+      h2#t_4_2 4.2 Técnicas de elaboración  
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-6.col-lg-5
+      .col-12.col-md-6.col-lg-5
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img03.png', alt='imagen decorativa')
       .col-lg-7
@@ -205,7 +206,7 @@
           h5 Tabla  5. 
           span Técnicas de elaboración
       .tabla-a.color-acento-botones 
-        table
+        table.bg-white
           caption 
             b Fuente: 
             | Sena (2025)
@@ -215,7 +216,7 @@
               th Objetivo  
               th Características  
           tbody
-             tr
+             tr.bg-gray
               td.text-center
                 b Claridad y sencillez. 
               td Garantizar que cualquier usuario pueda completar el formulario sin ambigüedades.  
@@ -237,7 +238,7 @@
                   p.mb-0
                     b Técnicas avanzadas:  
                     | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej. para fechas). 
-              tr
+              tr.bg-gray
                 td.text-center
                   b Validación de datos. 
                 td Minimizar errores mediante restricciones inteligentes. 
@@ -255,7 +256,7 @@
                   p.mb-0
                     b En formularios digitales: <br> 
                     | Uso de plataformas con arrastrar/soltar (ej.: Microsoft PowerApps). <br>Campos condicionales (ej.: mostrar "Motivo de devolución" solo si se selecciona "Producto defectuoso"). 
-              tr
+              tr.bg-gray
                 td.text-center
                   b Pruebas piloto.   
                 td Identificar fallos con usuarios reales antes del lanzamiento. 
@@ -271,7 +272,7 @@
                     | tiempo de completado, número de errores cometidos, feedback cualitativo (entrevistas post-prueba).
     .row-mx-auto.mb-5
       .col-12.col-lg-6.mx-auto
-        .row.bg-color-secundario-p10.align-items-center.justify-content-center.curva-derecha.position-relative
+        .row.bg-color-secundario-p20.align-items-center.justify-content-center.curva-derecha.position-relative
           .col-3.d-none.d-md-block
             figure
               img(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img05.png', alt='imagen decorativa')
@@ -292,72 +293,75 @@
             figure
               img.mb-4.mb-lg-0.w-auto(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img06.png', alt='imagen decorativa').floated-image-right
 
+    separador
+    
 
+    
     //titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_3_1 4.3. Herramientas tecnológicas
+      h2#t_4_3 4.3 Herramientas tecnológicas
 
+    .bg-full-width.bg02
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-md-6.col-lg-5
+          figure
+            img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img07.png', alt='imagen decorativa')
+        .col-lg-7
+            p Registrar información de forma eficiente va de la mano con el uso de herramientas tecnológicas que simplifican y mejoran cada etapa del proceso. Estas soluciones ayudan no solo a capturar la información de manera rápida y precisa, sino también a almacenarla de forma segura y gestionarla para que esté siempre disponible y organizada. La tecnología, bien aplicada, es clave para transformar datos en recursos útiles y confiables. 
+            .bg-color-acento-contenido.px-5.py-3.mb-3.curvas-izq-der
+                  p.mb-0 A continuación, se relacionan las principales herramientas tecnológicas para el diligenciamiento de formularios: 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-6.col-lg-5
-        figure
-          img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img07.png', alt='imagen decorativa')
-      .col-lg-7
-          p Registrar información de forma eficiente va de la mano con el uso de herramientas tecnológicas que simplifican y mejoran cada etapa del proceso. Estas soluciones ayudan no solo a capturar la información de manera rápida y precisa, sino también a almacenarla de forma segura y gestionarla para que esté siempre disponible y organizada. La tecnología, bien aplicada, es clave para transformar datos en recursos útiles y confiables. 
-          .bg-color-acento-contenido.px-5.py-3.mb-3.curvas-izq-der
-                p.mb-0 A continuación, se relacionan las principales herramientas tecnológicas para el diligenciamiento de formularios: 
-
-
-    // Slider
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.fondo_1_2.p-5.bg02
-          SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
-            .tarjeta.p-4
-                h3.mb-2 Sistemas de gestión de bases de datos 
+    
+      // Slider
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8
+          .tarjeta.fondo_1_2.p-3.p-md-4.p-lg-5.bg05
+            SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
+              .tarjeta.p-4
+                  h3.mb-2 Sistemas de gestión de bases de datos 
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-1
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Bases de datos relacionales
+                    li.d-flex.align-items-start.mb-1
+                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      | Bases de datos no relacionales
+              .tarjeta.p-4
+                h3.mb-2 Plataformas de formularios digitales 
                 ul.mb-0
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Bases de datos relacionales
+                    | Google Forms. 
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Bases de datos no relacionales
-            .tarjeta.p-4
-              h3.mb-2 Plataformas de formularios digitales 
-              ul.mb-0
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Google Forms. 
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Microsoft Form 
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Jot Forms 
-            .tarjeta.p-4
-              h3.mb-2 Software ERP y CRM 
-              ul.mb-0
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | SAP
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Salesforce 
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Odoo 
-            .tarjeta.p-4
-              h3.mb-2 Aplicaciones móviles de recolección 
-              ul.mb-0
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | KoboToolbox 
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Fulcrum  
-      .col-10.col-lg-4
-        figure
-          img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img08.png', alt='imagen decorativa')
+                    | Microsoft Form 
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Jot Forms 
+              .tarjeta.p-4
+                h3.mb-2 Software ERP y CRM 
+                ul.mb-0
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | SAP
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Salesforce 
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Odoo 
+              .tarjeta.p-4
+                h3.mb-2 Aplicaciones móviles de recolección 
+                ul.mb-0
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | KoboToolbox 
+                  li.d-flex.align-items-start.mb-1
+                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                    | Fulcrum  
+        .col-10.col-lg-4
+          figure
+            img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img08.png', alt='imagen decorativa')
 
 </template>
 

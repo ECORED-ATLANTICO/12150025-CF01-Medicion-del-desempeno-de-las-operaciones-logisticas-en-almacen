@@ -111,16 +111,6 @@ export default {
             titulo: 'Métodos de captura de datos ',
             hash: 't_3_2',
           },
-          {
-            numero: '3.3',
-            titulo: 'Tipos',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Funciones',
-            hash: 't_3_4',
-          },
         ],
       },
       {

@@ -24,10 +24,10 @@
 
     // titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.1. Concepto
+      h2#t_1_1 1.1 Concepto
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-10.col-lg-4
+      .col-12.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema1/img02.png', alt='imagen decorativa')
       .col-lg-8
@@ -37,7 +37,7 @@
 
      // titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_2 1.2. Características
+      h2#t_1_2 1.2 Características
     p.mb-5 Los almacenes logísticos modernos presentan una serie de características que los hacen esenciales para la eficiencia de la cadena de suministro:
 
 
@@ -47,8 +47,8 @@
       span Línea de tiempo de las redes sociales 
     figure.mb-4
       figure.mb-3
-        img(src='@/assets/curso/temas/tema1/img03.svg', alt='').mx-auto.d-none.d-sm-block
-        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='').mx-auto.d-block.d-sm-none
+        img(src='@/assets/curso/temas/tema1/img03.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
+        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
 
       figcaption 
         b Fuente: 
@@ -57,44 +57,44 @@
 
     separador
 
-
+    
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_2 1.3. Tipos
+      h2#t_1_3 1.3 Tipos
+    
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-5
+      .col-12.col-lg-5
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema1/img04.png', alt='imagen decorativa')
       .col-lg-7
           p Conocer los diferentes tipos de almacenes dentro de la logística es fundamental para diseñar estrategias que optimicen el manejo, almacenamiento y distribución de mercancías. Esta comprensión permite asignar cada tipo de almacén a su función específica dentro de la cadena de suministro, facilitando una gestión más eficiente del inventario y reduciendo costos operativos. 
           p.mb-0 Los almacenes se clasifican de acuerdo con varios criterios:
-       
+          
+    .bg-full-width.bg01
+      .row.mb-3.titulo-icono
+        .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+          .div.mb-3(data-aos="fade-right")
+            h3.position-relative.bg-color-secundario Según su estructura
+              img(src='@/assets/curso/temas/tema1/img05.png', alt='imagen decorativa')
 
-    .row.mb-3.titulo-icono
-      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-        .div.mb-3(data-aos="fade-right")
-          h3.position-relative.bg-color-secundario Según su estructura
-            img(src='@/assets/curso/temas/tema1/img05.png', alt='imagen decorativa')
+      .row.justify-content-center.mb-5
+        .col-xl-5.col-lg-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img06.png", alt="Imagen decorativa")
+            .crd_hover_txt--body
+              p.text-bold.mb-3.text-center Almacenes interiores o cubiertos.
+              p.mb-0.text-center Se trata de instalaciones totalmente selladas que resguardan los bienes almacenados frente a las variaciones climáticas externas, como cambios en la humedad o en la temperatura ambiente.
 
-
-    .row.justify-content-center.mb-5
-      .col-xl-5.col-lg-6.col-10.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img06.png", alt="Imagen decorativa")
-          .crd_hover_txt--body
-            p.text-bold.mb-3.text-center Almacenes interiores o cubiertos.
-            p.mb-0.text-center Se trata de instalaciones totalmente selladas que resguardan los bienes almacenados frente a las variaciones climáticas externas, como cambios en la humedad o en la temperatura ambiente.
-
-      .col-xl-5.col-lg-6.col-10.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img07.png", alt="Imagen decorativa")
-          .crd_hover_txt--body
-            p.text-bold.mb-3.text-center Almacenes exteriores o descubiertos.
-            p.mb-0.text-center Son áreas descubiertas dentro de un recinto delimitado, destinadas a almacenar bienes que no requieren protección especial contra factores ambientales.
+        .col-xl-5.col-lg-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img07.png", alt="Imagen decorativa")
+            .crd_hover_txt--body
+              p.text-bold.mb-3.text-center Almacenes exteriores o descubiertos.
+              p.mb-0.text-center Son áreas descubiertas dentro de un recinto delimitado, destinadas a almacenar bienes que no requieren protección especial contra factores ambientales.
 
 
     // Subtitulo
@@ -111,7 +111,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema1/img08.png', alt='imagen decorativa')
       .col-lg-8
-        .tarjeta.fondo_1_2.p-5.bg02
+        .tarjeta.fondo_1_2.p-3.p-md-4.p-lg-5.bg05
           SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
             .tarjeta
               .row.justify-content-center.align-items-center.p-1
@@ -120,7 +120,7 @@
                   p Almacena insumos para la producción. Ubicación cerca para reducir tiempos de abastecimiento 
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img09.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto
                 
             .tarjeta.bg-01.p-2
               .row.justify-content-center.align-items-center.p-3
@@ -129,7 +129,7 @@
                   p Guarda bienes semielaborados durante las etapas de producción.
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa').mx-auto
                 
             .tarjeta.bg-01.p-2
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
@@ -138,7 +138,7 @@
                   p Contiene bienes listos para su distribución al cliente final. Puede estar cerca de centros de producción o distribución.  
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa').mx-auto
                 
             .tarjeta.bg-01.p-2
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
@@ -147,7 +147,7 @@
                   p Centraliza bienes para su redistribución a minoristas o clientes. 
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa').mx-auto
                 
             .tarjeta.bg-01.p-2
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
@@ -157,7 +157,7 @@
                   p Minimiza el tiempo de almacenamiento: los bienes entran y salen rápidamente sin guardarse. Ideal para mercancías perecederas o pedidos urgentes. 
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen Decorativa').mx-auto
 
             .tarjeta.bg-01.p-2
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
@@ -166,7 +166,7 @@
                   p Agrupa cargas pequeñas en envíos más grandes para optimizar transporte. 
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa').mx-auto
 
             .tarjeta.bg-01.p-2
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
@@ -175,7 +175,7 @@
                   p Usado para almacenaje a corto plazo, como en puertos o zonas francas. 
                 .col-md-8.col-xl-4.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen').mx-auto
+                    img(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa').mx-auto
 
     // Subtitulo
     .row.mb-3.titulo-icono
@@ -240,13 +240,15 @@
           .row(titulo="Almacén automatizado  ")
               p Utiliza sistemas robóticos y equipos programados para realizar tareas de almacenamiento, recuperación y transporte de mercancías con mínima intervención humana. 
           .row(titulo="Monitoreo de las operaciones logísticas de almacén ")
-              p Va más allá de la automatización: integra IoT, Big Data, IA y computación en la nube para tomar decisiones en tiempo real y optimizar procesos de manera adaptativa. 
+              p Va más allá de la automatización: integra IoT, 
+                i Big Data, 
+                | IA y computación en la nube para tomar decisiones en tiempo real y optimizar procesos de manera adaptativa. 
          
     separador
 
     // Titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_3 1.4. Funciones
+      h2#t_1_4 1.4 Funciones
     p.mb-5 Las funciones de un almacén en logística son múltiples y fundamentales para garantizar la eficiencia operativa y la satisfacción del cliente. Las principales funciones incluyen: 
 
     .row
@@ -268,15 +270,17 @@
               tr
                 td(rowspan="7").text-center
                   b Funciones operativas 
-              tr
+              tr.bg-gray
                 td Recepción de bienes. 
                 td Verificación de cantidades y calidad. <br>Registro en el sistema (WMS/ERP). 
 
               tr
                 td Almacenamiento 
-                td Ubicación en racks, estanterías o zonas específicas. 
+                td Ubicación en 
+                  i racks, 
+                  | estanterías o zonas específicas. 
                   <br>Control de condiciones (temperatura, humedad). 
-              tr
+              tr.bg-gray
                 td Gestión de inventarios 
                 td Control de 
                   i stock.  
@@ -286,17 +290,17 @@
                 td Preparación de pedidos 
                   i (Picking & Packing).  
                 td Selección de productos según órdenes de compra. <br>Embalaje y etiquetado para envío.  
-              tr
+              tr.bg-gray
                 td Despacho y distribución.  
                 td Carga en vehículos para transporte. <br>Coordinación con transportistas.  
               tr
                 td 
                   i Kitting  
                 td Agrupar componentes para ensamblaje posterior.  
-              tr
+              tr.bg-gray
                 td(rowspan="3").text-center
                   b Funciones de valor añadido
-              tr
+              tr.bg-gray
                 td Etiquetado y personalización.  
                 td Preparación de productos para clientes específicos.  
 
@@ -306,13 +310,13 @@
               tr
                 td(rowspan="5").text-center
                   b Funciones estratégicas 
-              tr
+              tr.bg-gray
                 td Reducción de costos.  
                 td Optimización de espacio y recursos.  
               tr
                 td Control de calidad  
                 td Inspección de los productos para garantizar que cumplen con los estándares requeridos.  
-              tr
+              tr.bg-gray
                 td Mejora del servicio al cliente.  
                 td Entrega rápida y sin errores.  
               tr

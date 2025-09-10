@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> validar el conocimiento adquirido sobre las generalidades del almacén, sus procesos logísticos y el monitoreo de estos.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
