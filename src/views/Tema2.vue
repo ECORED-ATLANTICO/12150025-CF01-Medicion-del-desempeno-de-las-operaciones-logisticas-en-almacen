@@ -24,7 +24,7 @@
         h2#t_2_1 2.1 Concepto
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-8.col-lg-2
+        .col-12.col-lg-2
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img02.png', alt='imagen decorativa')
         .col-lg-10
@@ -179,7 +179,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-5
+      .col-12.col-lg-5
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img06.png', alt='imagen decorativa')
       .col-lg-7
