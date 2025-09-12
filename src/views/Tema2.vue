@@ -18,13 +18,13 @@
           
     separador
 
-    .bg-full-width.bg03
+    .bg-full-width.bg02
       // titulo
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2#t_2_1 2.1 Concepto
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-2
+        .col-8.col-lg-2
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img02.png', alt='imagen decorativa')
         .col-lg-10
@@ -40,10 +40,10 @@
           .row.mx-auto
             .col-12.col-md-8.order-2.order-md-1
               figure
-              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='imagen decorativa')
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
             .col-5.col-md-4.mx-auto.order-1.order-md-2
               figure
-                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='imagen decorativa')
+                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
           figcaption 
             b Fuente: 
             | Sena, (2025)
@@ -60,7 +60,7 @@
     .bg-full-width.bg03
       // Slider
       .row.justify-content-center.align-items-center.mb-5
-        .col-10.col-lg-4
+        .col-10.col-md-10.col-lg-4
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img04.png', alt='imagen decorativa')
         .col-lg-8
@@ -172,6 +172,7 @@
 
     separador
 
+    
     //titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_2_4 2.4 Registros
@@ -185,222 +186,232 @@
         p La importancia de los registros en el proceso operativo del almacén radica en que constituyen la base para un control riguroso y eficiente del inventario y las operaciones logísticas. 
           .cajon.color-acento-contenido.p-4
             p.mb-0 En conjunto, estos registros ofrecen visibilidad en tiempo real y datos confiables que permiten una rápida toma de decisiones, optimización de recursos y mejora continua en la operación del almacén. Además, con la integración de tecnologías como RFID y sistemas automatizados, estos registros se vuelven más precisos y ágiles, lo que reduce costos y mejora la competitividad empresarial. 
+          
+
+
+
+    .bg-full-width.bg02
+      TabsC.color-primario.mb-5
+        //- Primer TAB: Entradas
+        .py-3.py-md-4.bg-color-secundario-p10(titulo="Entradas")
+            .container-fluid.py-4
+              .row.justify-content-center
+                .col-12.col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+                  p
+                    b Entradas
+                  p.mb-1
+                    b Descripción
+                  p.mb-3 Documentar todos los productos que ingresan al almacén, verificando su conformidad con los pedidos.
+                  p.mb-1
+                    b Datos clave
+                  .container-fluid
+                    .row
+                      .col-12.col-md-6
+                        ul.mb-0
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Número de factura o remisión (del proveedor).
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Fecha y hora de recepción.
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Proveedor (nombre, contacto).
+
+                      .col-12.col-md-6
+                        ul.mb-0
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Descripción de los productos (código, 
+                              i SKU, 
+                              | cantidad).
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span
+                              em Stock
+                              |  mínimo y máximo (para alertas de reposición).
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Responsable de recepción.
+
+               
+                .col-12.col-md-8.col-lg-4.order-1.order-lg-2
+                  figure
+                    img.img-fluid(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen decorativa')
+        
+        //- Segundo TAB: Salidas
+        .py-3.py-md-4.bg-color-secundario-p10(titulo="Salidas")
+          .container-fluid.py-4
+            .row.justify-content-center
+              .col-12.col-md-8.col-lg-4
+                figure
+                  img.img-fluid(src='@/assets/curso/temas/tema2/img08.png', alt='Imagen decorativa')
+              .col-12.col-lg-6.mb-4.mb-lg-0
+                p
+                  b Salidas
+                p.mb-1
+                  b Descripción
+                p.mb-3 Llevar control de los productos que salen del almacén, ya sea por ventas, traslados o devoluciones.
+                p.mb-1
+                  b Datos clave
+                .container-fluid
+                  .row
+                    .col-12.col-md-6
+                      ul.mb-0
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Número de orden de salida o 
+                            em picking
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Cliente o destino (si es una venta o traslado interno).
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Fecha y hora de salida.
+
+                    .col-12.col-md-6
+                      ul.mb-0
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Lista de productos despachados (cantidad, lote, seriales).
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Transportista o método de envío.
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Firma de conformidad del receptor.
+
+        //- Tercer TAB: Inventario
+        .py-3.py-md-4.bg-color-secundario-p10(titulo="Inventario")
+            .container-fluid.py-4.pb-0
+              .row.justify-content-center
+                .col-12.col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+                  p
+                    b Inventario
+                  p.mb-1
+                    b Descripción
+                  p.mb-3 Documentar todos los productos que ingresan al almacén, verificando su conformidad con los pedidos.
+                    | Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). 
+                    | Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual).
+                .col-12.col-md-8.col-lg-4.order-1.order-lg-2
+                  figure
+                    img.img-fluid(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen decorativa').mb-3.mb-lg-0
+            .container-fluid.pb-4
+              .row.justify-content-center 
+                .col-12.col-md-6.col-lg-5
+                  p.mb-1
+                    b Datos clave
+                  ul.mb-0
+                    li.d-flex.align-items-start.mb-2
+                      i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      span Código del producto y ubicación en el almacén.
+                    li.d-flex.align-items-start.mb-2
+                      i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      span 
+                         i Stock actual (cantidad disponible).
+
+
+                .col-12.col-md-6.col-lg-5
+                  ul.mb-0.mt-0.mt-md-4
+                    li.d-flex.align-items-start.mb-2
+                      i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      span 
+                        i Stock 
+                        | mínimo y máximo (para alertas de reposición).
+                    li.d-flex.align-items-start.mb-2
+                      i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                      span Fecha del último movimiento.
+                  
+
+               
+        //- Cuarto TAB: Movimientos internos
+        .py-3.py-md-4.bg-color-secundario-p10(titulo="Movimientos internos")
+          .container-fluid.py-4
+            .row.justify-content-center
+              .col-12.col-md-8.col-lg-4
+                figure
+                  img.img-fluid(src='@/assets/curso/temas/tema2/img10.png', alt='Imagen decorativa')
+              .col-12.col-lg-6.mb-4.mb-lg-0
+                p
+                  b Movimientos internos
+                p.mb-1
+                  b Descripción
+                p.mb-3 Rastrear cambios de ubicación dentro del almacén (ej: de zona de recepción a 
+                 i picking).
+                p.mb-1
+                  b Datos clave
+                .container-fluid
+                  .row
+                    .col-12.col-md-6
+                      ul.mb-0
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Producto y cantidad movida.
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span  Ubicación origen y destino
+
+
+                    .col-12.col-md-6
+                      ul.mb-0
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Motivo del movimiento (reabastecimiento, reorganización).
+                        li.d-flex.align-items-start.mb-2
+                          i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                          span Responsable del movimiento.
+     
+        //- Quinto TAB: No conformidad (devoluciones, daños, pérdidas)
+        .py-3.py-md-4.bg-color-secundario-p10(titulo="No conformidad (devoluciones, daños, pérdidas)")
+            .container-fluid.py-4.pb-0
+              .row.justify-content-center
+                .col-12.col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+                  p
+                    b No conformidad (devoluciones, daños, pérdidas)
+                  p.mb-1
+                    b Descripción
+                  p.mb-3 Documentar productos que no cumplen con los estándares de calidad o se pierden. <br>Productos dañados (roturas, humedad). <br>Productos vencidos o próximos a vencer. <br>Diferencias en inventario (faltantes inexplicables). <br>Reclamos de clientes por errores en despachos. 
+                  .container-fluid.pb-4
+                    .row.justify-content-center 
+                      .col-12.col-md-6
+                        p.mb-1
+                          b Datos clave
+                        ul.mb-0
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Descripción del problema.
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Fotos o evidencias (en sistemas digitales).
+
+                      .col-12.col-md-6
+                        ul.mb-0.mt-0.mt-md-4
+                          li.d-flex.align-items-start.mb-2
+                            i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
+                            span Acciones tomadas (reemplazo, descarte, ajuste contable).
+                .col-12.col-md-8.col-lg-4.order-1.order-lg-2
+                  figure
+                    img.img-fluid(src='@/assets/curso/temas/tema2/img12.png', alt='Imagen decorativa').mb-3.mb-lg-0
+            
+
         
 
-
-
-    // Tabs
-    TabsC.color-primario.mb-5
-      .py-3.py-md-4(titulo="Entradas").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-12.col-lg-6.mb-4.mb-md-0.px-5
-            p 
-              b Entradas 
-            p.mb-0 
-              b Descripción 
-            p Documentar todos los productos que ingresan al almacén, verificando su conformidad con los pedidos. 
-            p
-              b Datos clave
-            .row
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Número de factura o remisión (del proveedor). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fecha y hora de recepción. 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Proveedor (nombre, contacto). 
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Descripción de los productos (código, SKU, cantidad)
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Condición de los productos (inspección visual, daños, caducidad). 
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Responsable de recepción. 
-          .col-lg-4.col-8.mx-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
-          .col-1
-      
-      .py-3.py-md-4(titulo="Salidas").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-lg-4.col-8.mx-auto.order-2.order-lg-1
-            figure
-              img(src='@/assets/curso/temas/tema2/img08.png', alt='Imagen Decorativa')
-          .col-12.col-lg-6.mb-4.mb-md-0.px-5.order-1.order-lg-2
-            p 
-              b Salidas 
-            p.mb-0 
-              b Descripción 
-            p Llevar control de los productos que salen del almacén, ya sea por ventas, traslados o devoluciones.
-            p
-              b Datos clave
-            .row
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                      style="color:#FE8849; font-size:15px; line-height:1.5;"
-                    )
-                    span Número de orden de salida o 
-                      em picking
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Cliente o destino (si es una venta o traslado interno).
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fecha y hora de salida.
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Lista de productos despachados (cantidad, lote, seriales).
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Transportista o método de envío.
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Firma de conformidad del receptor.
-          
-          .col-1
-      .py-3.py-md-4(titulo="Inventario").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-12.col-lg-10
-            .row
-              .col-12.col-lg-6.mb-4.mb-md-0.px-5
-                p 
-                  b Inventario 
-                p.mb-0 
-                  b Descripción 
-                p Mantener un control actualizado de las cantidades disponibles en el almacén. Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual).
-
-              .col-lg-4.col-8.mx-auto
-                figure
-                  img(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen Decorativa')
-            .row
-              .col-0
-              .col-10.mx-auto
-                p
-                  b Datos clave
-                .row
-                  .col-12.col-md-6
-                    ul
-                      li.d-flex.align-items-start.mb-1 
-                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                        span Código del producto y ubicación en el almacén.
-
-                      li.d-flex.align-items-start.mb-1 
-                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                        span 
-                          em Stock 
-                          |  actual (cantidad disponible).
-
-                  .col-12.col-md-6
-                    ul
-                      li.d-flex.align-items-start.mb-1 
-                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                        span 
-                          em Stock 
-                          |  mínimo y máximo (para alertas de reposición).
-
-                      li.d-flex.align-items-start.mb-1 
-                        i.fa-solid.fa-circle-check.me-2.flex-shrink-0(
-                          style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                        span Fecha del último movimiento.
-              .col-1
-          .col-1
-      
-      .py-3.py-md-4(titulo="Movimientos internos ").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-lg-4.col-8.mx-auto.order-2.order-lg-1
-            figure
-              img(src='@/assets/curso/temas/tema2/img10.png', alt='Imagen Decorativa')
-          .col-12.col-lg-6.mb-4.mb-md-0.px-5.order-1.order-lg-2
-            p 
-              b Entradas 
-            p.mb-0 
-              b Descripción 
-            p Rastrear cambios de ubicación dentro del almacén (ej: de zona de recepción a 
-              i picking).
-            p
-              b Datos clave
-            .row
-              .col-6
-                  ul
-                    li.d-flex.align-items-start.mb-1 
-                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Producto y cantidad movida.
-                    li.d-flex.align-items-start.mb-1 
-                      i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Ubicación origen y destino
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Motivo del movimiento (reabastecimiento, reorganización).
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Responsable del movimiento.
-          .col-1
-
-      .py-3.py-md-4(titulo="No conformidad (devoluciones, daños, pérdidas) ").bg-color-secundario-p10
-        .row.py-4
-          .col-1
-          .col-12.col-lg-6.mb-4.mb-md-0.px-5
-            p.mb-0 
-              b Descripción 
-            p Documentar productos que no cumplen con los estándares de calidad o se pierden. <br>Productos dañados (roturas, humedad). <br>Productos vencidos o próximos a vencer. <br>Diferencias en inventario (faltantes inexplicables). <br>Reclamos de clientes por errores en despachos. 
-            p
-              b Datos clave
-            .row
-              .col-6
-                ul
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Descripción del problema.
-                  li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Fotos o evidencias (en sistemas digitales).
-              .col-6
-                ul
-                 li.d-flex.align-items-start.mb-1 
-                    i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Acciones tomadas (reemplazo, descarte, ajuste contable).
-          .col-lg-4.col-8.mx-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img11.png', alt='Imagen Decorativa')
-          .col-1
-
-    // Figura
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.mx-auto
-        .titulo-sexto.mb-4
-          h5 Figura 3. 
-          span Tendencias actuales en registros de almacén 
-        .row.mx-auto
-          .col-12.col-md-12
-            figure
-             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13.svg', alt='imagen decorativa').mx-auto.d-none.d-sm-block
-          .col-12.mx-auto
-            figure
-              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13m.svg', alt='imagen decorativa').mx-auto.d-block.d-sm-none
-        figcaption 
-          b Fuente: 
-          | Sena, (2025)
+      // Figura
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.mx-auto
+          .titulo-sexto.mb-4
+            h5 Figura 3. 
+            span Tendencias actuales en registros de almacén 
+          .row.mx-auto
+            .col-12.col-md-12
+              figure
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén.').mx-auto.d-none.d-sm-block
+            .col-12.mx-auto
+              figure
+                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13m.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén.').mx-auto.d-block.d-sm-none
+          figcaption 
+            b Fuente: 
+            | Sena, (2025)
 
     //cajon
     .cajon.color-acento-contenido.p-4.mb-3
@@ -418,26 +429,24 @@
       .col-md-6
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img14.png', alt='imagen decorativa')
-      .col-md-6
+      .col-12.col-md-6
         p En conjunto, estos reportes proporcionan una fotografía precisa y en tiempo real del estado del almacén, lo que es indispensable para responder ágilmente a cambios en la demanda, mejorar la eficiencia operativa y mantener la competitividad en mercados exigentes.  
         p Un reporte de almacén efectivo debe contener los siguientes elementos fundamentales: 
         .row.bg-color-secundario-p10.align-items-center.p-3.justify-content-center.tarjeta.curva-derecha
-          .col-4
+          .col-4.col-md-6
              figure
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img15.png', alt='imagen decorativa')
-          .col-8
+          .col-12.col-md-12.col-lg-8
             ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                 | Nombre del reporte. 
-                
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                 | Almacén/Zona cubierta.
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                 | Periodo de reporte.
-                
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                 | Fecha de generación. 
@@ -629,7 +638,7 @@
 
     //cajon
     .row
-      .col-12.col-md-10.mx-auto
+      .col-12.col-lg-10.mx-auto
         .cajon.color-acento-contenido.p-4.mb-3
           p.mb-0 Este marco garantiza que todos los reportes, independientemente de su tipo o frecuencia, contengan la información mínima necesaria para: 
 
@@ -640,47 +649,44 @@
           .col-4
               figure
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img15.png', alt='imagen decorativa')
-          .col-8
+          .col-12.col-lg-8
             ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Nombre del reporte. 
+                | Tomar decisiones informadas 
+
                 
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Almacén/Zona cubierta.
+                | Mantener control operativo 
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Periodo de reporte.
+                | Cumplir con auditorías 
+
                 
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Fecha de generación. 
-              li.d-flex.align-items-start.mb-1 
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  | Elaborado por.  
-              li.d-flex.align-items-start.mb-1 
-                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Revisado/Aprobado por. 
+                | Mejorar procesos continuamente 
+             
        
+    .bg-full-width.bg02
+      .row
+        .col-12.col-lg-10.mx-auto
+          .titulo-sexto.mb-4
+            h5 Figura 4. 
+            span Tendencias actuales en reportes de almacén  
+          figure.mb-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema2/img26.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.').mx-auto.d-none.d-sm-block
+              img(src='@/assets/curso/temas/tema2/img26m.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.').mx-auto.d-block.d-sm-none
 
-    .row
-      .col-12.col-lg-10.mx-auto
-        .titulo-sexto.mb-4
-          h5 Figura 4. 
-          span Tendencias actuales en reportes de almacén  
-        figure.mb-4
-          figure.mb-3
-            img(src='@/assets/curso/temas/tema2/img26.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
-            img(src='@/assets/curso/temas/tema2/img26m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
+            figcaption 
+              b Fuente: 
+              | Sena, (2025)
 
-          figcaption 
-            b Fuente: 
-            | Sena, (2025)
-
-    //cajon
-    .cajon.color-secundario.p-4.mb-3
-      p.mb-0.text-center Estas tendencias están transformando los reportes de almacén de documentos estáticos a herramientas estratégicas en tiempo real. 
+      //cajon
+      .cajon.color-secundario.p-4.mb-3
+        p.mb-0.text-center Estas tendencias están transformando los reportes de almacén de documentos estáticos a herramientas estratégicas en tiempo real. 
 
 
 </template>

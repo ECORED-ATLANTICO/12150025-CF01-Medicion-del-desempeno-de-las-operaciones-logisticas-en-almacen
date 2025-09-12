@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.bg01.bg-full-width.py-5
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.bg03.bg-full-width.py-5
       .col-12.col-sm-7.col-lg-4
         figure
           img(data-aos="fade-in")(src="../assets/curso/intro/img01.png" alt="Imagen decorativa").mb-4.mb-lg-0

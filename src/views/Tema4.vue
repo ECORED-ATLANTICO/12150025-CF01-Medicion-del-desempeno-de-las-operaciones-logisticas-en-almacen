@@ -198,7 +198,7 @@
       h2#t_4_2 4.2 Técnicas de elaboración  
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-6.col-lg-5
+      .col-12.col-md-10.col-lg-5
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img03.png', alt='imagen decorativa')
       .col-lg-7
@@ -310,7 +310,7 @@
 
     .bg-full-width.bg02
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-md-6.col-lg-5
+        .col-12.col-md-10.col-lg-5
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img07.png', alt='imagen decorativa')
         .col-lg-7
@@ -366,7 +366,7 @@
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Fulcrum  
-        .col-10.col-lg-4
+        .col-10.col-md-8.col-lg-4
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img08.png', alt='imagen decorativa')
 

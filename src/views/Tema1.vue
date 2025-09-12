@@ -47,8 +47,8 @@
       span Línea de tiempo de las redes sociales 
     figure.mb-4
       figure.mb-3
-        img(src='@/assets/curso/temas/tema1/img03.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
-        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
+        img(src='@/assets/curso/temas/tema1/img03.svg', alt='En la figura se presentan las principales características del almacén').mx-auto.d-none.d-sm-block
+        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='En la figura se presentan las principales características del almacén').mx-auto.d-block.d-sm-none
 
       figcaption 
         b Fuente: 
@@ -192,7 +192,7 @@
           .col-md-6.mb-4.mb-md-0.mx-auto
             h4 Almacén de bienes perecederos.
             p Centros de distribución de supermercados. Farmacéuticas (vacunas y medicamentos sensibles). 
-          .col-md-4.col-8.mx-auto
+          .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen decorativa')
       .py-4.py-md-5(titulo="Almacén de bienes peligrosos. " :icono="require('@/assets/curso/temas/tema1/img17.svg')")
@@ -200,7 +200,7 @@
           .col-md-6.mb-4.mb-md-0.mx-auto
             h4 Almacén de bienes peligrosos.
             p Plantas químicas o farmacéuticas. Puertos para manejo de combustibles. 
-          .col-md-4.col-8.mx-auto
+          .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen decorativa')
       .py-4.py-md-5(titulo="Almacén bienes en general. " :icono="require('@/assets/curso/temas/tema1/img18.svg')")
@@ -208,7 +208,7 @@
           .col-md-6.mb-4.mb-md-0.mx-auto
             h4 Almacén bienes en general. 
             p Centros de distribución de minoristas. Almacenes de suministros industriales. 
-          .col-md-4.col-8.mx-auto
+          .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen decorativa')
       .py-4.py-md-5(titulo="Almacén de comercio electrónico. " :icono="require('@/assets/curso/temas/tema1/img19.svg')")
@@ -217,7 +217,7 @@
             h4 Almacén de comercio electrónico.
             p Centros de cumplimiento de Amazon, Temu, etc. Almacenes 
               i dark store para entregas ultra rápidas (15-30 minutos). 
-          .col-md-4.col-8.mx-auto
+          .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
 
@@ -231,7 +231,7 @@
 
     // Slider
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-4
+      .col-10.col-md-8.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema1/img24.png', alt='imagen decorativa')
       .col-lg-8

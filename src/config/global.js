@@ -122,22 +122,17 @@ export default {
           {
             numero: '4.1',
             titulo: 'Tipos',
-            hash: 't_3_1',
+            hash: 't_4_1',
           },
           {
             numero: '4.2',
             titulo: 'Técnicas de elaboración ',
-            hash: 't_3_2',
+            hash: 't_4_2',
           },
           {
             numero: '4.3',
             titulo: 'Herramientas tecnológicas',
-            hash: 't_3_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Funciones',
-            hash: 't_3_4',
+            hash: 't_4_3',
           },
         ],
       },
@@ -161,11 +156,6 @@ export default {
             numero: '5.3',
             titulo: 'Procedimiento',
             hash: 't_5_3',
-          },
-          {
-            numero: '5.4',
-            titulo: 'Funciones',
-            hash: 't_5_4',
           },
         ],
       },

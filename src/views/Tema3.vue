@@ -9,7 +9,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-6.col-lg-4
+      .col-12.col-md-6.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img01.png', alt='imagen decorativa')
       .col-lg-8
@@ -22,20 +22,20 @@
                 figure
                   img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img02.svg', alt='imagen decorativa').mx-auto
           p Así, la gestión de la información se convierte en un activo valioso para las empresas, una herramienta que permite tomar decisiones acertadas, anticiparse a los cambios y aprovechar las oportunidades. No es solo un medio para alcanzar el conocimiento, sino un camino en sí mismo hacia el éxito. 
+    .bg-full-width.bg06
+      .row
+        .col-12.col-lg-8.mx-auto
+          .titulo-sexto.mb-4
+            h5 Figura 5. 
+            span Aspectos importantes en la gestión de información  
+          figure.mb-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img03.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información.').mx-auto.d-none.d-sm-block
+              img(src='@/assets/curso/temas/tema3/img03m.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información.').mx-auto.d-block.d-sm-none
 
-    .row
-      .col-12.col-lg-8.mx-auto
-        .titulo-sexto.mb-4
-          h5 Figura 5. 
-          span Aspectos importantes en la gestión de información  
-        figure.mb-4
-          figure.mb-3
-            img(src='@/assets/curso/temas/tema3/img03.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
-            img(src='@/assets/curso/temas/tema3/img03m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
-
-          figcaption 
-            b Fuente: 
-            | tomado y adaptado de Introducción a la gestión de la información y del conocimiento en la empresa, por Universitat Politecnica de Valencia, 2022.
+            figcaption 
+              b Fuente: 
+              | tomado y adaptado de Introducción a la gestión de la información y del conocimiento en la empresa, por Universitat Politecnica de Valencia, 2022.
 
     separador
 
@@ -62,7 +62,7 @@
                 img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img06.svg', alt='imagen decorativa').mx-auto
             .col-12.col-lg-10
               p.mb-0 Los principios para el manejo de información confidencial son esenciales para asegurar la seguridad, precisión y privacidad de los datos sensibles dentro de cualquier organización. A continuación, se destacan los principios clave: 
-      .col-6.col-lg-4
+      .col-12.col-md-8.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img05.png', alt='imagen decorativa')
 
@@ -73,8 +73,8 @@
           span Principios para el manejo confidencial de información  
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema3/img09.svg', alt='Imagen Decorativa').mx-auto.d-none.d-sm-block
-            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='Imagen Decorativa').mx-auto.d-block.d-sm-none
+            img(src='@/assets/curso/temas/tema3/img09.svg', alt='En la figura se presentan los principios para el manejo de información confidencial.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='En la figura se presentan los principios para el manejo de información confidencial.').mx-auto.d-block.d-md-none
 
           figcaption 
             b Fuente: 
@@ -108,7 +108,7 @@
             img(src='@/assets/curso/temas/tema1/img05.png', alt='imagen decorativa')  
     .bg-full-width.bg04
       .row.justify-content-center.align-items-center.mb-5
-        .col-8.col-lg-5
+        .col-12.col-md-8.col-lg-5
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img17.png', alt='imagen decorativa')
         .col-12.col-lg-7
@@ -124,7 +124,7 @@
                 p.text-small Se valida la calidad y precisión de la información recopilada. 
 
       p.mb-5 A continuación, se presentan los principales métodos utilizadas en la captura de datos: 
-
+      
       .row
         .col-12.mx-auto
           .titulo-sexto.mb-4

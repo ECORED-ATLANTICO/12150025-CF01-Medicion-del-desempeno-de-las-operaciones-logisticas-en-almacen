@@ -92,14 +92,14 @@
               .row.align-items-center.justify-content-center
                 .col-12.col-lg-10.order-2.order-lg-1
                   p.mb-0 Se realiza mediante registros físicos (libros, hojas de cálculo). <br>Requiere mayor esfuerzo humano y es propenso a errores. <br>Usado en almacenes pequeños con bajo volumen de operaciones. 
-                .col-6.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
+                .col-6.col-md-4.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/tema5/img08.svg', alt='imagen decorativa')  
             .tarjeta.p-4
               h4.mb-4.mb-lg-2 Automatizado
               .row.align-items-center.justify-content-center
                 .col-12.col-lg-10.order-2.order-lg-1
                   p Utiliza tecnologías como: códigos de barras para escaneo rápido de productos; RFID (Identificación por radiofrecuencia) para rastreo en tiempo real sin línea de visión; sistemas de gestión de almacenes (WMS para control de inventario. <br>Reduce errores y mejora la eficiencia operativa. 
-                .col-6.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
+                .col-6.col-md-4.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/tema5/img09.svg', alt='imagen decorativa')  
             .tarjeta.p-4
               h4.mb-4.mb-lg-2 En tiempo real 
@@ -107,7 +107,7 @@
                 .col-12.col-lg-10.order-2.order-lg-1
                   p.mb-0 Monitoreo constante mediante sensores y sistemas IoT (Internet de las Cosas). 
                   p Proporciona alertas inmediatas ante irregularidades (ej. variaciones de temperatura en almacenes frigoríficos). 
-                .col-6.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
+                .col-6.col-md-4.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/tema5/img10.svg', alt='imagen decorativa')  
 
     //cajon
