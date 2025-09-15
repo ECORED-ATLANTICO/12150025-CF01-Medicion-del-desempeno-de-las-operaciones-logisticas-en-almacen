@@ -426,14 +426,14 @@
     p.mb-5 Conocer los tipos de reportes es fundamental para una gestión eficiente del almacén, ya que cada uno aporta información clave que facilita la toma de decisiones estratégicas y operativas. 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6
+      .col-md-8.col-lg-6
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img14.png', alt='imagen decorativa')
-      .col-12.col-md-6
+      .col-12.col-md-12.col-lg-6
         p En conjunto, estos reportes proporcionan una fotografía precisa y en tiempo real del estado del almacén, lo que es indispensable para responder ágilmente a cambios en la demanda, mejorar la eficiencia operativa y mantener la competitividad en mercados exigentes.  
         p Un reporte de almacén efectivo debe contener los siguientes elementos fundamentales: 
         .row.bg-color-secundario-p10.align-items-center.p-3.justify-content-center.tarjeta.curva-derecha
-          .col-4.col-md-6
+          .col-4.col-md-4.col-lg-4
              figure
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img15.png', alt='imagen decorativa')
           .col-12.col-md-12.col-lg-8
@@ -498,7 +498,7 @@
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Productos obsoletos o de lento movimiento.
-              .col-12.col-md-8.col-lg-4.mx-auto
+              .col-12.col-md-12.col-lg-4.mx-auto
                 figure
                   img(src='@/assets/curso/temas/tema2/img21.png', alt='Imagen decorativa')
 
@@ -510,7 +510,7 @@
               p.mb-0 Registrar todas las entradas y salidas de productos con sus saldos. 
               p Beneficios: trazabilidad completa de cada ítem, control de costos de inventario y detección de discrepancias. 
               .row
-                .col-12.col-md-8.col-lg-4.mx-auto
+                .col-12.col-md-12.col-lg-4.mx-auto
                   figure
                     img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa').mb-4.mb-lg-0
                 .col-12.col-md-6.col-lg-4
@@ -565,7 +565,7 @@
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                       | Fecha de detección.
-              .col-12.col-md-8.col-lg-4.mx-auto
+              .col-12.col-md-12.col-lg-4.mx-auto
                 figure
                   img(src='@/assets/curso/temas/tema2/img23.png', alt='Imagen decorativa')
 
@@ -576,7 +576,7 @@
             h4 Trazabilidad
             p Seguir el historial completo de un producto. 
             .row
-              .col-12.col-md-8.col-lg-4.mx-auto
+              .col-12.col-md-12.col-lg-4.mx-auto
                 figure
                   img(src='@/assets/curso/temas/tema2/img24.png', alt='Imagen decorativa').mb-4.mb-lg-0
               .col-12.col-md-6.col-lg-4
@@ -630,7 +630,7 @@
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                       | Fecha de detección.
-              .col-12.col-md-8.col-lg-4.mx-auto
+              .col-12.col-md-12.col-lg-4.mx-auto
                 figure
                   img(src='@/assets/curso/temas/tema2/img25.png', alt='Imagen decorativa')
 

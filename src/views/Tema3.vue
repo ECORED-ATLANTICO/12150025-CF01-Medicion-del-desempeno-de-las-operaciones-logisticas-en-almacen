@@ -9,7 +9,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-6.col-lg-4
+      .col-12.col-md-8.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img01.png', alt='imagen decorativa')
       .col-lg-8

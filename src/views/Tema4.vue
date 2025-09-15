@@ -198,7 +198,7 @@
       h2#t_4_2 4.2 Técnicas de elaboración  
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-10.col-lg-5
+      .col-12.col-md-12.col-lg-5
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img03.png', alt='imagen decorativa')
       .col-lg-7
@@ -310,7 +310,7 @@
 
     .bg-full-width.bg02
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-md-10.col-lg-5
+        .col-12.col-md-12.col-lg-5
           figure
             img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema4/img07.png', alt='imagen decorativa')
         .col-lg-7
