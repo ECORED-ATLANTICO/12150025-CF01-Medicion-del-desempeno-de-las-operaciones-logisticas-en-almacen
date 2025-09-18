@@ -40,13 +40,13 @@
           .row.mx-auto
             .col-12.col-md-8.order-2.order-md-1
               figure
-              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén. - Garantizar la disponibilidad de productos. - Optimizar espacios y recursos. - Minimizar costos operativos. - Mantener la integridad de los inventarios.')
             .col-5.col-md-4.mx-auto.order-1.order-md-2
               figure
-                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
+                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='En la figura se presentan los objetivos del proceso operativo de almacén. - Garantizar la disponibilidad de productos. - Optimizar espacios y recursos. - Minimizar costos operativos. - Mantener la integridad de los inventarios.')
           figcaption 
             b Fuente: 
-            | Sena, (2025)
+            | SENA, 2025.
 
 
     separador
@@ -93,7 +93,7 @@
                       i e-commerce, retail 
                       | y sectores de fabricación. 
               .tarjeta.p-4
-                    h3.mb-2 7. Control y gestión de inventarios. 
+                    h3.mb-2 7. Control y gestión de inventarios
                     p Proceso continuo de auditorías y recuentos para garantizar que existencias físicas coincidan con registros. El control de inventarios detecta desviaciones, previene faltantes o excesos y asegura precisión en la gestión eficiente del almacén. 
 
 
@@ -109,12 +109,12 @@
       .row.mb-3
         .titulo-sexto.mb-4
           h5 Tabla 2. 
-          span herramientas tecnológicas
+          span Herramientas tecnológicas
         .tabla-a.color-acento-botones 
           table
             caption 
               b Fuente: 
-              | Sena, (2025)
+              | SENA, 2025.
             thead
               tr
                 th Tipo de función 
@@ -155,7 +155,7 @@
                 td(rowspan="4").text-center
                   b Tecnologías 4.0 
               tr
-                td Internet de las cosas   
+                td Internet de las cosas. 
                 td Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos. <br>Dispositivos de realidad aumentada para 
                   i picking.   
               tr.bg-gray
@@ -290,9 +290,8 @@
                     b Inventario
                   p.mb-1
                     b Descripción
-                  p.mb-3 Documentar todos los productos que ingresan al almacén, verificando su conformidad con los pedidos.
-                    | Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). 
-                    | Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual).
+                  p.mb-3 Mantener un control actualizado de las cantidades disponibles en el almacén. Registro de inventario perpetuo: se actualiza en tiempo real con cada entrada o salida (usando sistemas WMS o ERP). Registro de inventario periódico: se realiza mediante conteos físicos programados (semanal, mensual o anual).
+
                 .col-12.col-md-8.col-lg-4.order-1.order-lg-2
                   figure
                     img.img-fluid(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen decorativa').mb-3.mb-lg-0
@@ -405,13 +404,13 @@
           .row.mx-auto
             .col-12.col-md-12
               figure
-              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén.').mx-auto.d-none.d-sm-block
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén. Automatización con IoT y sensores: dispositivos conectados registran automáticamente movimientos de mercancía, condiciones ambientales. Blockchain para trazabilidad total: registros inalterables y transparentes desde el proveedor hasta el cliente final. Plataformas en la nube: acceso remoto 24/7 a los datos, sincronización en tiempo real entre múltiples almacenes. Inteligencia artificial predictiva: algoritmos que anticipan caducidades y necesidades de espacio, alertan sobre anomalías antes de que ocurran. Dispositivos móviles y hands-free: tabletas y smartphones para registro instantáneo, realidad aumentada con gafas para verificar datos en tiempo real.').mx-auto.d-none.d-sm-block
             .col-12.mx-auto
               figure
-                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13m.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén.').mx-auto.d-block.d-sm-none
+                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img13m.svg', alt='En la figura se presentan las tendencias actuales en registros generados en almacén. Automatización con IoT y sensores: dispositivos conectados registran automáticamente movimientos de mercancía, condiciones ambientales. Blockchain para trazabilidad total: registros inalterables y transparentes desde el proveedor hasta el cliente final. Plataformas en la nube: acceso remoto 24/7 a los datos, sincronización en tiempo real entre múltiples almacenes. Inteligencia artificial predictiva: algoritmos que anticipan caducidades y necesidades de espacio, alertan sobre anomalías antes de que ocurran. Dispositivos móviles y hands-free: tabletas y smartphones para registro instantáneo, realidad aumentada con gafas para verificar datos en tiempo real.').mx-auto.d-block.d-sm-none
           figcaption 
             b Fuente: 
-            | Sena, (2025)
+            | SENA, 2025.
 
     //cajon
     .cajon.color-acento-contenido.p-4.mb-3
@@ -614,27 +613,25 @@
                   ul.mb-0
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Código/SKU del producto.  
+                      | Alcance de la auditoría. 
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Descripción completa.
+                      | Metodología empleada.
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Valor unitario y total.  
+                      | Hallazgos principales. 
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Lote/número de serie (cuando aplica).  
+                      | No conformidades detectadas.
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Ubicación donde ocurrió la merma.
+                      | Puntaje de cumplimiento.
                     li.d-flex.align-items-start.mb-1
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Fecha de detección.
+                      | Plan de acción correctiva.
               .col-12.col-md-12.col-lg-4.mx-auto
                 figure
                   img(src='@/assets/curso/temas/tema2/img25.png', alt='Imagen decorativa')
-
-    p.mb-5 Este marco garantiza que todos los reportes, independientemente de su tipo o frecuencia, contengan la información mínima necesaria para: 
 
     //cajon
     .row
@@ -682,7 +679,7 @@
 
             figcaption 
               b Fuente: 
-              | Sena, (2025)
+              | SENA, 2025.
 
       //cajon
       .cajon.color-secundario.p-4.mb-3

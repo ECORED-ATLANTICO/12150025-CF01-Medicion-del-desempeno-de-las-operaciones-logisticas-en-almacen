@@ -30,8 +30,8 @@
             span Aspectos importantes en la gestión de información  
           figure.mb-4
             figure.mb-3
-              img(src='@/assets/curso/temas/tema3/img03.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información.').mx-auto.d-none.d-sm-block
-              img(src='@/assets/curso/temas/tema3/img03m.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información.').mx-auto.d-block.d-sm-none
+              img(src='@/assets/curso/temas/tema3/img03.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información. Tipos de fuentes de información. Flujo de la información. Necesidad de información y su flujo. Ciclo de vida de la información. Habilidades de las personas en el manejo de la información. Cultura informacional de la empresa. Responsabilidad de los empleados en relación con la información.').mx-auto.d-none.d-sm-block
+              img(src='@/assets/curso/temas/tema3/img03m.svg', alt='En la figura se presentan los aspectos importantes a tener en cuenta en la gestión de información. Tipos de fuentes de información. Flujo de la información. Necesidad de información y su flujo. Ciclo de vida de la información. Habilidades de las personas en el manejo de la información. Cultura informacional de la empresa. Responsabilidad de los empleados en relación con la información.').mx-auto.d-block.d-sm-none
 
             figcaption 
               b Fuente: 
@@ -73,12 +73,12 @@
           span Principios para el manejo confidencial de información  
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema3/img09.svg', alt='En la figura se presentan los principios para el manejo de información confidencial.').mx-auto.d-none.d-md-block
-            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='En la figura se presentan los principios para el manejo de información confidencial.').mx-auto.d-block.d-md-none
+            img(src='@/assets/curso/temas/tema3/img09.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoria. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoria. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-block.d-md-none
 
           figcaption 
             b Fuente: 
-            | Sena, (2025)
+            | SENA, 2025.
 
         //cajon
         .cajon.color-acento-contenido.p-4.mb-3
@@ -117,7 +117,7 @@
             .row(numero="1" titulo="Recolección de datos ")
                 p.text-small Se obtiene información de fuentes como encuestas, entrevistas, bases de datos, documentos, internet, sensores, etc. 
             .row(numero="2" titulo="Selección y filtrado ")
-                p.text-small No toda la información es útil, por lo que se elige la más relevante según los objetivos 
+                p.text-small No toda la información es útil, por lo que se elige la más relevante según los objetivos.
             .row(numero="3" titulo="Organización ")
                 p.text-small Los datos se estructuran para facilitar su análisis (por ejemplo, en tablas, informes o sistemas digitales). 
             .row(numero="3" titulo="Verificación  ")
@@ -134,7 +134,7 @@
             table.bg-white
               caption 
                 b Fuente: 
-                | Sena, (2025)
+                | SENA, 2025.
               thead
                 tr
                   th Metodología 

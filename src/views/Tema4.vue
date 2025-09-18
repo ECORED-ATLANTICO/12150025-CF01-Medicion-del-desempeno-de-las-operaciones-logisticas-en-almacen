@@ -41,7 +41,7 @@
           table.bg-white
             caption 
               b Fuente: 
-              | Sena, (2025)
+              | SENA, 2025.
             thead
               tr
                 th Clasificación 
@@ -214,7 +214,7 @@
         table.bg-white
           caption 
             b Fuente: 
-            | Sena, (2025)
+            | SENA, 2025.
           thead
             tr
               th Técnicas  

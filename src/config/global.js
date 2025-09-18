@@ -191,7 +191,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_12150025_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -207,7 +207,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Almacén',
+      tema: 'Almacén.',
       referencia:
         'Brain Logistic. (2022). Almacenes: Concepto de almacén. [Video]. YouTube.',
       tipo: 'Video',
@@ -347,7 +347,7 @@ export default {
     },
     {
       referencia:
-        'Universidad Politecnica de Valencia. (2022). Introducción a la gestión de la información y del conocimiento en la empresa',
+        'Universitat Politecnica de Valencia. (2022). Introducción a la gestión de la información y del conocimiento en la empresa',
       link:
         'https://riunet.upv.es/bitstreams/e0125038-9086-42d8-954e-4401b3f5637e/download',
     },
@@ -384,7 +384,7 @@ export default {
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Jair Coll Gallard',
+          nombre: 'Jair Coll Gallardo',
           cargo: 'Evaluador instruccional ',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

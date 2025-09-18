@@ -19,7 +19,7 @@
         
 
     .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/JjPV3D5FpuU?si=gRyQeJjkd69-L9Tbnpm" title="Análisis estratégico del mercado internacional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/b9j6GXM8BYw?si=oZdXZG9N0jcskctv" title="Análisis estratégico del mercado internacional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
 
 
 </template>

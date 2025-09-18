@@ -44,15 +44,15 @@
 
     .titulo-sexto.mb-4
       h5 Figura 1. 
-      span Línea de tiempo de las redes sociales 
+      span Características del almacén
     figure.mb-4
       figure.mb-3
-        img(src='@/assets/curso/temas/tema1/img03.svg', alt='En la figura se presentan las principales características del almacén').mx-auto.d-none.d-sm-block
-        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='En la figura se presentan las principales características del almacén').mx-auto.d-block.d-sm-none
+        img(src='@/assets/curso/temas/tema1/img03.svg', alt='En la figura se presentan las principales características del almacén: accesibilidad, diseño optimizado, sistema de gestión, trazabilidad, seguridad, flexibilidad y sostenibilidad.').mx-auto.d-none.d-sm-block
+        img(src='@/assets/curso/temas/tema1/img03m.svg', alt='En la figura se presentan las principales características del almacén: accesibilidad, diseño optimizado, sistema de gestión, trazabilidad, seguridad, flexibilidad y sostenibilidad.').mx-auto.d-block.d-sm-none
 
       figcaption 
         b Fuente: 
-        | Sena, (2025)
+        | SENA, 2025.
 
 
     separador
@@ -216,7 +216,8 @@
           .col-md-6.mb-4.mb-md-0.mx-auto
             h4 Almacén de comercio electrónico.
             p Centros de cumplimiento de Amazon, Temu, etc. Almacenes 
-              i dark store para entregas ultra rápidas (15-30 minutos). 
+              i dark store 
+              | para entregas ultra rápidas (15-30 minutos). 
           .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
@@ -240,7 +241,7 @@
               p Cuentan con estanterías tradicionales y simples. Para facilitar las operaciones, se emplean montacargas y las estanterías están organizadas estratégicamente para permitir maniobras ágiles y seguras. 
           .row(titulo="Almacén automatizado  ")
               p Utiliza sistemas robóticos y equipos programados para realizar tareas de almacenamiento, recuperación y transporte de mercancías con mínima intervención humana. 
-          .row(titulo="Monitoreo de las operaciones logísticas de almacén ")
+          .row(titulo="Almacén inteligente")
               p Va más allá de la automatización: integra IoT, 
                 i Big Data, 
                 | IA y computación en la nube para tomar decisiones en tiempo real y optimizar procesos de manera adaptativa. 
@@ -261,7 +262,7 @@
           table
             caption 
               b Fuente: 
-              | Sena, (2025)
+              | SENA, 2025.
             thead
               tr
                 th Tipo de función 
@@ -270,19 +271,19 @@
             tbody
               tr
                 td(rowspan="7").text-center
-                  b Funciones operativas 
+                  b Funciones operativas. 
               tr.bg-gray
                 td Recepción de bienes. 
                 td Verificación de cantidades y calidad. <br>Registro en el sistema (WMS/ERP). 
 
               tr
-                td Almacenamiento 
+                td Almacenamiento.
                 td Ubicación en 
                   i racks, 
                   | estanterías o zonas específicas. 
                   <br>Control de condiciones (temperatura, humedad). 
               tr.bg-gray
-                td Gestión de inventarios 
+                td Gestión de inventarios.
                 td Control de 
                   i stock.  
                   | Conteos cíclicos para evitar mermas. 

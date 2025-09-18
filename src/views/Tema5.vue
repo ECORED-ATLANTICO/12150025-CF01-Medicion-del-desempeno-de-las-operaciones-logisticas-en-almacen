@@ -18,11 +18,13 @@
 
     separador
 
-
+   
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_5_1 5.1 Concepto
     p.mb-5 El monitoreo del almacén se refiere al conjunto de actividades y sistemas implementados para supervisar, controlar y registrar las operaciones relacionadas con el almacenamiento de bienes. Su objetivo principal es asegurar que los bienes sean gestionados adecuadamente, minimizando errores, pérdidas y retrasos. 
-    
+    .titulo-sexto.mb-4
+            h5 Figura 8. 
+            span Objetivos del monitoreo del almacén.
     .bg-full-width.bg04
       .row.align-items-stretch.justify-content-center.mb-5.tarjetas-hover
         .col-12.col-md-6.col-lg-4.col-xl-2.d-flex.mb-3
@@ -132,13 +134,13 @@
     .bg-full-width.bg02.bg-size-auto.bg-bottom
       .row.mb-5
         .titulo-sexto.mb-4
-          h5 Tabla  5. 
-          span Técnicas de elaboración
+          h5 Tabla  6. 
+          span Procedimiento de monitoreo de almacén
         .tabla-a.color-acento-botones 
           table.bg-white
             caption 
               b Fuente: 
-              | Sena, (2025)
+              | SENA, 2025.
             thead
               tr
                 th Fase 
@@ -235,7 +237,7 @@
                 .col-8
                   img(src='@/assets/curso/temas/tema5/img14.svg' alt='Imagen Decorativa').w-auto.mx-auto
               h4.text-center.bg-color-secundario-p10.px-5.py-1.d-inline-block.mb-3  Ejecuta  
-              p.text-center Escanea productos con RFID diariamente y realiza conteos cíclicos 
+              p.text-center Escanea productos con RFID diariamente y realiza conteos cíclicos.
 
             .tarjeta.bg-white.p-4.py-5.border.text-center
               .row.justify-content-center.mb-3
