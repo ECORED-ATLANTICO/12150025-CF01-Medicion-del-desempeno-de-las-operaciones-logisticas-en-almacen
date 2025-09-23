@@ -31,7 +31,8 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema1/img02.png', alt='imagen decorativa')
       .col-lg-8
-          p.mb-3 En el ámbito logístico, un almacén es un espacio destinado a guardar de manera temporal o permanente mercancías, materias primas, productos en proceso o terminados, con la finalidad de asegurar que estén disponibles cuando y donde la cadena de suministro lo necesite. El almacén es, por tanto, un eslabón clave que conecta la producción con la distribución, asegurando el flujo constante de mercancías y la optimización de los recursos logísticos
+          p.mb-0 En el ámbito logístico, un almacén es un espacio destinado a guardar de manera temporal o permanente mercancías, materias primas, productos en proceso o terminados, con la finalidad de asegurar que estén disponibles cuando y donde la cadena de suministro lo necesite. 
+          p El almacén es, por tanto, un eslabón clave que conecta la producción con la distribución, asegurando el flujo constante de mercancías y la optimización de los recursos logísticos.
        
     separador
 
@@ -117,7 +118,7 @@
               .row.justify-content-center.align-items-center.p-1
                 .col-md-12.col-xl-8.mb-3
                   h3.mb-2 Almacén de materias primas 
-                  p Almacena insumos para la producción. Ubicación cerca para reducir tiempos de abastecimiento 
+                  p Almacena insumos para la producción. Ubicación cerca para reducir tiempos de abastecimiento.
                 .col-md-8.col-xl-4.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto
@@ -153,7 +154,7 @@
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
                 .col-md-12.col-xl-8.mb-4
                   h3.mb-2 Almacén de 
-                    i Cross-Docking. 
+                    i Cross-Docking
                   p Minimiza el tiempo de almacenamiento: los bienes entran y salen rápidamente sin guardarse. Ideal para mercancías perecederas o pedidos urgentes. 
                 .col-md-8.col-xl-4.mb-3
                   figure
@@ -270,7 +271,7 @@
                 th Descripción
             tbody
               tr
-                td(rowspan="7").text-center
+                td(rowspan="6").text-center
                   b Funciones operativas. 
               tr.bg-gray
                 td Recepción de bienes. 
@@ -295,17 +296,17 @@
               tr.bg-gray
                 td Despacho y distribución.  
                 td Carga en vehículos para transporte. <br>Coordinación con transportistas.  
+
+              tr.bg-gray
+                td(rowspan="4").text-center
+                  b Funciones de valor añadido
               tr
                 td 
                   i Kitting  
                 td Agrupar componentes para ensamblaje posterior.  
               tr.bg-gray
-                td(rowspan="3").text-center
-                  b Funciones de valor añadido
-              tr.bg-gray
                 td Etiquetado y personalización.  
                 td Preparación de productos para clientes específicos.  
-
               tr
                 td Servicios postventa  
                 td Gestión de devoluciones.  

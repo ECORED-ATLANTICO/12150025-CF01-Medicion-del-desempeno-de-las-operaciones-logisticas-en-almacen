@@ -32,7 +32,7 @@
           p.mb-0 Este proceso es fundamental dentro de la cadena de suministro, ya que actúa como enlace entre la producción y la distribución, impactando directamente en la satisfacción del cliente final.
         
       // Figura
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5.align-items-center
         .col-12.col-lg-8.mx-auto
           .titulo-sexto.mb-4
             h5 Figura 2. 
@@ -43,7 +43,7 @@
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén. - Garantizar la disponibilidad de productos. - Optimizar espacios y recursos. - Minimizar costos operativos. - Mantener la integridad de los inventarios.')
             .col-5.col-md-4.mx-auto.order-1.order-md-2
               figure
-                img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='En la figura se presentan los objetivos del proceso operativo de almacén. - Garantizar la disponibilidad de productos. - Optimizar espacios y recursos. - Minimizar costos operativos. - Mantener la integridad de los inventarios.')
+                img.mb-4.mb-lg-3(data-aos="fade-left")(src='@/assets/curso/temas/tema2/img03.png', alt='En la figura se presentan los objetivos del proceso operativo de almacén. - Garantizar la disponibilidad de productos. - Optimizar espacios y recursos. - Minimizar costos operativos. - Mantener la integridad de los inventarios.')
           figcaption 
             b Fuente: 
             | SENA, 2025.
@@ -124,12 +124,19 @@
               tr
                 td.text-center 
                   b Sistemas de gestión de almacenes (WMS). 
-                td.bg-gray Gestión de inventario en tiempo real con actualización automática de 
-                  i stock.<br> 
-                  | Optimización de rutas de 
-                  i picking 
-                  | mediante algoritmos inteligentes. <br>Gestión de ubicaciones dinámica basada en rotación de productos. 
-                td.bg-gray Reducción de hasta 30 % en tiempos de preparación de pedidos. <br>Precisión de inventario superior al 99.5 %. <br>Disminución de 25-40 % en costos operativos. 
+                td.bg-gray 
+                  ul.bullets
+                    li Gestión de inventario en tiempo real con actualización automática de 
+                      i stock.<br> 
+                    li Optimización de rutas de 
+                      i picking 
+                      | mediante algoritmos inteligentes. 
+                    li Gestión de ubicaciones dinámica basada en rotación de productos. 
+                td.bg-gray 
+                  ul.bullets
+                    li Reducción de hasta 30 % en tiempos de preparación de pedidos. 
+                    li Precisión de inventario superior al 99.5 %. 
+                    li Disminución de 25-40 % en costos operativos. 
               tr
                 td(rowspan="3").text-center.bg-gray
                   b Automatización y robótica. 
@@ -138,37 +145,64 @@
                   p 
                     b Sistemas AS/RS 
                     i (Automated Storage and Retrieval Systems): 
-                  p Almacenamiento vertical automatizado. <br>Recuperación guiada por 
-                    i software. <br>
-                    | Transporte autónomo de carga.   
-                td Ahorro de espacio.  <br>Reducción de errores. <br>Productividad continua. <br>Elimina accidentes por manipulación. <br>Eficiencia energética.  
+                  ul.bullets
+                    li Almacenamiento vertical automatizado. 
+                    li Recuperación guiada por 
+                      i software. 
+                    li Transporte autónomo de carga.   
+                td 
+                  ul.bullets
+                    li Ahorro de espacio.  
+                    li Reducción de errores. 
+                    li Productividad continua. 
+                    li Elimina accidentes por manipulación. 
+                    li Eficiencia energética.  
 
               tr
                 td.bg-gray
                   p 
                     b Robots móviles Autónomos: 
-                  p Navegación inteligente. <br>
-                    i Picking 
-                    | autónomo. <br>Optimización de rutas en tiempo real. 
-                td.bg-gray Flexibilidad operativa. <br>Rentabilidad comprobada. <br>Adaptabilidad <br>Métricas de desempeño.   
+                  ul.bullets
+                    li Navegación inteligente.
+                    li 
+                      i Picking 
+                      | autónomo. 
+                    li Optimización de rutas en tiempo real. 
+                td.bg-gray 
+                  ul.bullets
+                    li Flexibilidad operativa. 
+                    li Rentabilidad comprobada. 
+                    li Adaptabilidad 
+                    li Métricas de desempeño.   
               tr
                 td(rowspan="4").text-center
                   b Tecnologías 4.0 
               tr
                 td Internet de las cosas. 
-                td Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos. <br>Dispositivos de realidad aumentada para 
-                  i picking.   
+                td 
+                  ul.bullets 
+                    li Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos. 
+                    li Dispositivos de realidad aumentada para 
+                      i picking.   
               tr.bg-gray
                 td 
                   i Blockchain 
                   | para trazabilidad.  
-                td Registro inmutable de movimientos de bienes. <br>Certificación de origen y autenticidad de productos. <br>
-                  i Smart 
-                  | contracts para automatizar procesos logísticos.  
+                td 
+                  ul.bullets
+                    li Registro inmutable de movimientos de bienes. 
+                    li Certificación de origen y autenticidad de productos.
+                    li
+                      i Smart contracts 
+                      | para automatizar procesos logísticos.  
               tr
                 td Inteligencia artificial y 
                   i Machine Learning. 
-                td Optimización dinámica de layouts de almacén. <br>Detección de anomalías: Identificación de patrones de error. <br>Sistemas autónomos de toma de decisiones. 
+                td 
+                  ul.bullets
+                    li Optimización dinámica de layouts de almacén. 
+                    li Detección de anomalías: Identificación de patrones de error. 
+                    li Sistemas autónomos de toma de decisiones. 
 
     separador
 
@@ -261,7 +295,7 @@
                         li.d-flex.align-items-start.mb-2
                           i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                           span Número de orden de salida o 
-                            em picking
+                            em picking.
                         li.d-flex.align-items-start.mb-2
                           i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                           span Cliente o destino (si es una venta o traslado interno).
@@ -348,7 +382,7 @@
                           span Producto y cantidad movida.
                         li.d-flex.align-items-start.mb-2
                           i.fa-solid.fa-circle-check.me-2.icon-check(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                          span  Ubicación origen y destino
+                          span  Ubicación origen y destino.
 
 
                     .col-12.col-md-6
@@ -650,20 +684,20 @@
             ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Tomar decisiones informadas 
+                | Tomar decisiones informadas.
 
                 
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Mantener control operativo 
+                | Mantener control operativo.
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Cumplir con auditorías 
+                | Cumplir con auditorías.
 
                 
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Mejorar procesos continuamente 
+                | Mejorar procesos continuamente.
              
        
     .bg-full-width.bg02

@@ -28,11 +28,6 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-// .banner-principal__row .banner-principal__img
-//   width: 400px
-//   @media (min-width: 1200px)
-//     width: 500px
-
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #12263F
 
@@ -45,9 +40,23 @@
 figcaption
   font-weight: normal
 
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
+
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
 .banner-principal__componente h1,
 .banner-principal__descripcion p
   color: #12263F
+.banner-principal__info
+  @media screen and (max-width: $bp-max-sm)
+    padding-right: 40px
 
 .boton *, .boton span, .boton i, .boton:hover span, .boton:hover i,
   color: $white!important
@@ -281,3 +290,12 @@ table
     transition: 0.3s all
   .tarjeta.bg-color-secundario-p20:hover
     background-color: #E6EAE9
+
+// Listado con viñeta
+.bullets
+  li
+    padding-left: 1rem
+    margin-bottom: 0.2rem
+
+    background: url("../assets/bullets/img01.svg") no-repeat
+    background-position: 0px 5px

@@ -22,11 +22,11 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_5_1 5.1 Concepto
     p.mb-5 El monitoreo del almacén se refiere al conjunto de actividades y sistemas implementados para supervisar, controlar y registrar las operaciones relacionadas con el almacenamiento de bienes. Su objetivo principal es asegurar que los bienes sean gestionados adecuadamente, minimizando errores, pérdidas y retrasos. 
-    .titulo-sexto.mb-4
-            h5 Figura 8. 
-            span Objetivos del monitoreo del almacén.
+
     .bg-full-width.bg04
       .row.align-items-stretch.justify-content-center.mb-5.tarjetas-hover
+        p
+          b Objetivos del monitoreo del almacén
         .col-12.col-md-6.col-lg-4.col-xl-2.d-flex.mb-3
           .tarjeta.bg-color-secundario-p20.p-3.text-center.h-100.w-100
             figure
@@ -34,7 +34,7 @@
             p
               b Control de inventario
             p Evitar faltantes o excesos de 
-              i Stock
+              i Stock.
 
         .col-12.col-md-6.col-lg-4.col-xl-2.d-flex.mb-3
           .tarjeta.bg-color-secundario-p20.p-3.text-center.h-100.w-100
@@ -42,7 +42,7 @@
               img.mb-4.w-auto.mx-auto(src='@/assets/curso/temas/tema5/img03.svg', alt='imagen decorativa')
             p
               b Optimización de espacios
-            p Asegurar un uso eficiente del área de almacenamiento
+            p Asegurar un uso eficiente del área de almacenamiento.
 
         .col-12.col-md-6.col-lg-4.col-xl-2.d-flex.mb-3
           .tarjeta.bg-color-secundario-p20.p-3.text-center.h-100.w-100
@@ -50,7 +50,7 @@
               img.mb-4.w-auto.mx-auto(src='@/assets/curso/temas/tema5/img04.svg', alt='imagen decorativa')
             p
               b Seguridad
-            p Prevenir robos o daños o deterioros de bienes
+            p Prevenir robos o daños o deterioros de bienes.
 
         .col-12.col-md-6.col-lg-4.col-xl-2.d-flex.mb-3
           .tarjeta.bg-color-secundario-p20.p-3.text-center.h-100.w-100
@@ -108,7 +108,7 @@
               .row.align-items-center.justify-content-center
                 .col-12.col-lg-10.order-2.order-lg-1
                   p.mb-0 Monitoreo constante mediante sensores y sistemas IoT (Internet de las Cosas). 
-                  p Proporciona alertas inmediatas ante irregularidades (ej. variaciones de temperatura en almacenes frigoríficos). 
+                  p Proporciona alertas inmediatas ante irregularidades (ej.: variaciones de temperatura en almacenes frigoríficos). 
                 .col-6.col-md-4.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   img(src='@/assets/curso/temas/tema5/img10.svg', alt='imagen decorativa')  
 

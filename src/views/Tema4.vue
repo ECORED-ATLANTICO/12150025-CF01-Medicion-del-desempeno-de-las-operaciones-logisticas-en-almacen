@@ -91,7 +91,7 @@
                       | Capturar datos básicos de usuarios, clientes o empleados. 
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Ejemplos: registro de nuevos usuarios en una plataforma, alta de empleados en sistemas de RR.HH.s
+                      | Ejemplos: registro de nuevos usuarios en una plataforma, alta de empleados en sistemas de RR.HH.
               tr
                 td De encuesta o evaluación. 
                 td                 
@@ -114,7 +114,8 @@
                       | Gestionar peticiones o trámites formales. 
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Ejemplos: solicitud de vacaciones en una empresa, petición de soporte técnico (tickets).
+                      | Ejemplos: solicitud de vacaciones en una empresa, petición de soporte técnico 
+                      i (tickets).
               tr
                 td De control o auditoría. 
                 td 
@@ -134,7 +135,10 @@
                       | Facilitar transacciones comerciales o financieras. 
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Ejemplos: formularios de checkout en e-commerce, solicitudes de crédito o facturación.
+                      | Ejemplos: formularios de 
+                      i checkout 
+                      | en 
+                      i e-commerce, solicitudes de crédito o facturación.
               tr
                 td Estructurados (cerrados) 
                 td 
@@ -154,20 +158,20 @@
                   ul.mb-0
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Combinan campos cerrados con secciones de texto abierto. Ej. encuestas con preguntas mixtas (selección + comentarios). 
+                      | Combinan campos cerrados con secciones de texto abierto. Ej.: encuestas con preguntas mixtas (selección + comentarios). 
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Permiten mayor detalle sin perder estructura. Ej. reportes de incidencias (datos fijos + descripción del problema).
+                      | Permiten mayor detalle sin perder estructura. Ej.: reportes de incidencias (datos fijos + descripción del problema).
               tr
                 td No estructurados (abiertos) 
                 td 
                   ul.mb-0
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Dominados por campos de texto libre (ej. ensayos, descripciones extensas). 
+                      | Dominados por campos de texto libre (ej.: ensayos, descripciones extensas). 
                     li.d-flex.align-items-start.mb-1 
                       i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                      | Requieren análisis cualitativo (ej.entrevistas cualitativas). 
+                      | Requieren análisis cualitativo (ej.: entrevistas cualitativas). 
               tr.bg-gray
                 td Estáticos 
                 td 
@@ -228,10 +232,10 @@
               td 
                 p.mb-0
                   b Lenguaje claro: 
-                  | utilizar términos técnicos solo cuando sean indispensables (ej. "SKU" en lugar de "código del producto"). Evitar jerga administrativa compleja (ej. "fecha de emisión" "fecha de registro"). 
+                  | utilizar términos técnicos solo cuando sean indispensables (ej.: "SKU" en lugar de "código del producto"). Evitar jerga administrativa compleja (ej.: "fecha de emisión" "fecha de registro"). 
                 p.mb-0
                   b Diseño minimalista: 
-                  | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej. para fechas). 
+                  | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej.: calendario para fechas). 
               tr
                 td.text-center
                   b Estructura lógica. 
@@ -242,13 +246,13 @@
                     | Bloque 1. Datos básicos (fecha, operador, número de documento). <br>Bloque 2. Detalles de la operación (productos, cantidades, ubicaciones). <br>Bloque 3. Verificación (firmas, sellos, observaciones). 
                   p.mb-0
                     b Técnicas avanzadas:  
-                    | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej. para fechas). 
+                    | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej.: para fechas). 
               tr.bg-gray
                 td.text-center
                   b Validación de datos. 
                 td Minimizar errores mediante restricciones inteligentes. 
                 td 
-                  p.mb-0 Validación en tiempo real (ej. alerta si la cantidad supera el 
+                  p.mb-0 Validación en tiempo real (ej.: alerta si la cantidad supera el 
                     i stock 
                     | máximo). <br>Consulta a bases de datos (ej.: autocompletar nombres de productos). <br>Ejemplos críticos: campo "fecha", bloquear fechas futuras en registros de entrada. Campo "cantidad", Solo permitir números enteros positivos. 
               tr
@@ -273,10 +277,12 @@
                     | Incluir perfiles diversos (nuevos, experimentados, supervisores). 
                   p.mb-0
                     b Escenarios de prueba: 
-                    | casos normales (ej.: registro estándar). Casos límite (ej. ingresar 50 productos a la vez). 
+                    | casos normales (ej.: registro estándar). Casos límite (ej.: ingresar 50 productos a la vez). 
                   p.mb-0
                     b Métricas a evaluar: 
-                    | tiempo de completado, número de errores cometidos, feedback cualitativo (entrevistas post-prueba).
+                    | tiempo de completado, número de errores cometidos, 
+                    i feedback 
+                    | cualitativo (entrevistas post-prueba).
     .row-mx-auto.mb-5
       .col-12.col-lg-6.mx-auto
         .row.bg-color-secundario-p20.align-items-center.justify-content-center.curva-derecha.position-relative
@@ -289,7 +295,7 @@
             ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                | Reducción del 30% en errores de registro. 
+                | Reducción del 30 % en errores de registro. 
               li.d-flex.align-items-start.mb-1 
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                 | Ahorro de 15-20 minutos diarios por operario.
@@ -346,17 +352,19 @@
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                     | Jot Forms 
               .tarjeta.p-4
-                h3.mb-2 Software ERP y CRM 
+                h3.mb-2 
+                  i Software 
+                  | ERP y CRM 
                 ul.mb-0
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | SAP
+                    | SAP.
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Salesforce 
+                    | Salesforce.
                   li.d-flex.align-items-start.mb-1
                     i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                    | Odoo 
+                    | Odoo.
               .tarjeta.p-4
                 h3.mb-2 Aplicaciones móviles de recolección 
                 ul.mb-0

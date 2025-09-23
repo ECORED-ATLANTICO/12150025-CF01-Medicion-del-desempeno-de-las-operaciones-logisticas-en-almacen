@@ -13,7 +13,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema3/img01.png', alt='imagen decorativa')
       .col-lg-8
-          p Haisan Abdel Malak (2022) define la gestión de la información como el proceso de gestión del ciclo de vida completo de la información, desde su identificación y recopilación hasta su eliminación mediante el archivo o la eliminación. engloba todos los datos físicos y electrónicos recopilados por una empresa de sus clientes, empleados y proveedores. 
+          p Haisan Abdel Malak (2022) define la gestión de la información como el proceso de gestión del ciclo de vida completo de la información, desde su identificación y recopilación hasta su eliminación mediante el archivo o la eliminación. Engloba todos los datos físicos y electrónicos recopilados por una empresa de sus clientes, empleados y proveedores. 
           .bg-color-secundario-p10.p-3.mb-3.tarjeta
             .row.align-items-center.justify-content-center
               .col-12.col-lg-10
@@ -73,8 +73,8 @@
           span Principios para el manejo confidencial de información  
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema3/img09.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoria. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-none.d-md-block
-            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoria. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-block.d-md-none
+            img(src='@/assets/curso/temas/tema3/img09.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoría. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema3/img09m.svg', alt='En la figura se presentan los principios para el manejo de información confidencial. Confidencialidad: garantizar que la información solo sea accesible para personas autorizadas. Implementar medidas de seguridad como cifrado, contraseñas y permisos de acceso. Integridad: asegurar que la información no sea alterada, modificada o eliminada de manera no autorizada. Utilizar métodos de verificación como figuras digitales y registros de auditoría. Disponibilidad: mantener la información accesible para los usuarios autorizados cuando sea necesario. Implementar respaldos (backups) y planes de recuperación ante desastres. Legalidad: cumplir con las normativas aplicables. Obtener consentimiento informal para el manejo de datos personales. Responsabilidad y transparencia: designar responsables del manejo de información confidencial. Informar a los usuarios sobre cómo se usa y protege su información. Minimización de datos: recolectar y almacenar solo la información estrictamente necesaria. Evitar la retención excesiva de datos. Gestión de riesgos: identificar posibles amenazas vulnerables. Implementar controles para mitigar riesgos.').mx-auto.d-block.d-md-none
 
           figcaption 
             b Fuente: 
@@ -119,11 +119,11 @@
             .row(numero="2" titulo="Selección y filtrado ")
                 p.text-small No toda la información es útil, por lo que se elige la más relevante según los objetivos.
             .row(numero="3" titulo="Organización ")
-                p.text-small Los datos se estructuran para facilitar su análisis (por ejemplo, en tablas, informes o sistemas digitales). 
+                p.text-small Los datos se estructuran para facilitar su análisis (por ejemplo:, en tablas, informes o sistemas digitales). 
             .row(numero="3" titulo="Verificación  ")
                 p.text-small Se valida la calidad y precisión de la información recopilada. 
 
-      p.mb-5 A continuación, se presentan los principales métodos utilizadas en la captura de datos: 
+      p.mb-5 A continuación, se presentan los principales métodos utilizados en la captura de datos: 
       
       .row
         .col-12.mx-auto
@@ -148,7 +148,7 @@
                 tr
                   td Entrevistas  
                   td Son un tipo de herramienta que se realiza de manera individual, y consiste en la aplicación de un cuestionario que puede ser estructurado o no. Antes de aplicarse se debe definir las variables a identificar para obtener los datos adecuados. 
-                  td Entrevista 
+                  td Entrevista.
                 tr
                   td Observación  
                   td Es una técnica simple que pretende reconocer el comportamiento del objeto de estudio de manera directa, y su aplicación no requiere gran disponibilidad de recursos. 
@@ -156,7 +156,7 @@
                 tr
                   td Grupos focales  
                   td Consiste en desarrollar una entrevista colectiva que permite contrastar las respuestas de los participantes y fomentar la discusión sobre el tema tratado, de esta manera es posible enriquecer los datos y ver las diversas perspectivas sobre una problemática.
-                  td Entrevista grupal 
+                  td Entrevista grupal. 
                 tr
                   td Minería de datos  
                   td Es el proceso de descubrir patrones, correlaciones y tendencias ocultas en grandes conjuntos de datos mediante técnicas estadísticas 
@@ -167,7 +167,11 @@
                     i Web scraping  
                   td Técnica para extraer información automatizada de sitios 
                     i web 
-                    | mediante bots o scripts, convirtiendo datos no estructurados en estructurados. 
+                    | mediante  
+                    i bots  
+                    | o 
+                    i scripts, 
+                    | convirtiendo datos no estructurados en estructurados. 
                   td Automatización de recolección de datos desde páginas 
                     i web. 
                 tr
@@ -175,7 +179,7 @@
                   td Es la captura automática de datos mediante dispositivos físicos conectados a internet (sensores, 
                     i wearables, 
                     | cámaras inteligentes), que transmiten información en tiempo real. 
-                  td ---
+                  td Captura automática de datos mediante dispositivos conectados.
 
               
 
