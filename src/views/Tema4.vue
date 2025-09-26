@@ -246,7 +246,7 @@
                     | Bloque 1. Datos básicos (fecha, operador, número de documento). <br>Bloque 2. Detalles de la operación (productos, cantidades, ubicaciones). <br>Bloque 3. Verificación (firmas, sellos, observaciones). 
                   p.mb-0
                     b Técnicas avanzadas:  
-                    | limitar el uso de colores (máximo 3) para evitar distracciones. Emplear iconos universales (ej.: para fechas). 
+                    | Progresión lineal. Para procesos secuenciales (ej.: recepción → inspección → almacenaje). Pestañas o acordeones. En formularios digitales complejos para evitar saturación visual. 
               tr.bg-gray
                 td.text-center
                   b Validación de datos. 

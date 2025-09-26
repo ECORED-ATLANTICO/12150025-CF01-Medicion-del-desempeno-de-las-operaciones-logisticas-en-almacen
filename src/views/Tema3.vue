@@ -147,7 +147,7 @@
                   td Formularios digitales (Google y Microsoft Forms, Typeform) o físicos. 
                 tr
                   td Entrevistas  
-                  td Son un tipo de herramienta que se realiza de manera individual, y consiste en la aplicación de un cuestionario que puede ser estructurado o no. Antes de aplicarse se debe definir las variables a identificar para obtener los datos adecuados. 
+                  td Son un tipo de herramienta que se realiza de manera individual, y consiste en la aplicación de un cuestionario que puede ser estructurado o no. Antes de aplicarse debe definir las variables a identificar para obtener los datos adecuados. 
                   td Entrevista.
                 tr
                   td Observación  

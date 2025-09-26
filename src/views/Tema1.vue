@@ -164,7 +164,7 @@
               .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
                 .col-md-12.col-xl-8.mb-4
                   h3.mb-2 Almacén de consolidación
-                  p Agrupa cargas pequeñas en envíos más grandes para optimizar transporte. 
+                  p Agrupa cargas pequeñas en envíos más grandes para optimizar el transporte. 
                 .col-md-8.col-xl-4.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa').mx-auto
@@ -204,10 +204,10 @@
           .col-12.col-md-4.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen decorativa')
-      .py-4.py-md-5(titulo="Almacén bienes en general. " :icono="require('@/assets/curso/temas/tema1/img18.svg')")
+      .py-4.py-md-5(titulo="Almacén de bienes en general. " :icono="require('@/assets/curso/temas/tema1/img18.svg')")
         .row.px-4.align-items-center
           .col-md-6.mb-4.mb-md-0.mx-auto
-            h4 Almacén bienes en general. 
+            h4 Almacénn de bienes en general. 
             p Centros de distribución de minoristas. Almacenes de suministros industriales. 
           .col-12.col-md-4.col-8.mx-auto
             figure

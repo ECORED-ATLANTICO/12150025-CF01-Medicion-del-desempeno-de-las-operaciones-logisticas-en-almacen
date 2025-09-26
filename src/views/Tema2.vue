@@ -68,7 +68,7 @@
             SlyderA(tipo="b").tarjeta--blanca.p-3.rounded
               .tarjeta.p-4
                     h3.mb-2 1. Recepción de bienes 
-                    p En la fase inicial se reciben bienes de proveedores o producción, se inspeccionan visualmente, se verifica correspondencia con lo solicitado y se realiza un chequeo interno para identificar, clasificar y ubicar los productos adecuadamente. 
+                    p En la fase inicial, se reciben bienes de proveedores o producción, se inspeccionan visualmente, se verifica correspondencia con lo solicitado y se realiza un chequeo interno para identificar, clasificar y ubicar los productos adecuadamente. 
               .tarjeta.p-4
                     h3.mb-2 2. Almacenamiento 
                     p Una vez recibidos y clasificados los bienes, se procede a su colocación en el almacén. Esta etapa es fundamental para optimizar el espacio disponible y facilitar la rápida localización de los bienes cuando se necesiten. 
@@ -131,7 +131,7 @@
                     li Optimización de rutas de 
                       i picking 
                       | mediante algoritmos inteligentes. 
-                    li Gestión de ubicaciones dinámica basada en rotación de productos. 
+                    li Gestión de ubicaciones dinámicas basadas en rotación de productos. 
                 td.bg-gray 
                   ul.bullets
                     li Reducción de hasta 30 % en tiempos de preparación de pedidos. 
@@ -708,8 +708,8 @@
             span Tendencias actuales en reportes de almacén  
           figure.mb-4
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/img26.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.').mx-auto.d-none.d-sm-block
-              img(src='@/assets/curso/temas/tema2/img26m.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.').mx-auto.d-block.d-sm-none
+              img(src='@/assets/curso/temas/tema2/img26.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.- Reportes en tiempo real Con tecnologías IoT y cloud computing.- Predictivos Uso de IA para anticipar necesidades.- Mobile Acceso desde dispositivos móviles.- Interactivos Filtros y drill-down para análisis profundo.- Integrados Conexión con otros departamentos (ventas-compras).').mx-auto.d-none.d-sm-block
+              img(src='@/assets/curso/temas/tema2/img26m.svg', alt='En la figura se presentan las tendencias actuales en reportes generados en almacén.- Reportes en tiempo real Con tecnologías IoT y cloud computing.- Predictivos Uso de IA para anticipar necesidades.- Mobile Acceso desde dispositivos móviles.- Interactivos Filtros y drill-down para análisis profundo.- Integrados Conexión con otros departamentos (ventas-compras).').mx-auto.d-block.d-sm-none
 
             figcaption 
               b Fuente: 
