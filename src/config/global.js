@@ -330,32 +330,33 @@ export default {
   referencias: [
     {
       referencia:
-        'Aula Centro de Formación. (2022). <em>Gestión de Almacén y Logística.</em>',
-      link:
-        'https://dl.dropboxusercontent.com/scl/fi/ucro9rrtkrv682y7s1qt6/Curso-Gesti-n-de-Almanc-n-y-Log-stica-Aula-Centro-Formaci-n.pdf?rlkey=azxypu2r27s5m21odlj9ymwys&dl=0',
-    },
-    {
-      referencia:
-        'AR Racking. (2024). <em>Tipos de almacenes: Características y diferencias.</em> ',
+        'AR Racking. (2024).<em>Tipos de almacenes: Características y diferencias. </em>',
       link:
         'https://www.ar-racking.com/co/blog/tipos-de-almacenes-caracteristicas-y-diferencias/',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (2021). Zajuna Semilla. 121523_2_Virtual-Coordinación de procesos logísticos',
-      link: 'https://zajuna.sena.edu.co/zajuna/course/view.php?id=32450',
+        'Castillo Cano, S., Valdivia Rivera, M. de J., Hernández Cárdenas, M., González Lazalde, I., & Galván Ismael, M. Q. (2018).<em> Logística y productividad </em>(Coordinadores).',
+      link:
+        'https://redibai-myd.org/portal/wp-content/uploads/2019/03/Logi%CC%81stica-y-Productividad-10-4.pdf ',
+    },
+    {
+      referencia:
+        'Elsevier.<em> Modelo de gestión logística para pequeñas y medianas empresas en México. </em>(s. f.). Contaduría y Administración. ',
+      link:
+        'https://www.elsevier.es/es-revista-contaduria-administracion-87-articulo-modelo-gestion-logistica-pequenas-medianas-S0186104215721510 ',
+    },
+    {
+      referencia:
+        'Mora García, L. Á. (2015). Indicadores de la gestión logística (Ecoe Ediciones).',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2015/09/Indicadores-de-la-gestion-logistica.pdf',
     },
     {
       referencia:
         'Universitat Politecnica de Valencia. (2022). Introducción a la gestión de la información y del conocimiento en la empresa',
       link:
         'https://riunet.upv.es/bitstreams/e0125038-9086-42d8-954e-4401b3f5637e/download',
-    },
-    {
-      referencia:
-        'Universidad Tecnológica de Chile. (2017).<em> Logística y Distribución.</em> ',
-      link:
-        'https://dl.dropboxusercontent.com/scl/fi/fj36tqqwn137olufh5mt9/15.-Log-stica-y-Distribucci-n-autor-Inacap.pdf?rlkey=in7otqa16lkpda014bvsmn5pd&dl=0',
     },
   ],
   creditos: [
